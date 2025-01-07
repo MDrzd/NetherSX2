@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5.0dip"
+        app:cardCornerRadius="10.0dip"
+        app:cardElevation="5.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="?textAppearanceHeadline5"
+                android:ellipsize="end"
+                android:id="@id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="TextView"
+                android:maxLines="1"
+                android:layout_alignParentTop="true"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginEnd="10.0dip"
+                android:layout_toStartOf="@id/load"
+                android:layout_toEndOf="@id/screenshot" />
+            <TextView
+                android:textAppearance="?textAppearanceCaption"
+                android:ellipsize="end"
+                android:id="@id/slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:maxLines="1"
+                android:layout_below="@id/title"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginEnd="10.0dip"
+                android:layout_toStartOf="@id/load"
+                android:layout_toEndOf="@id/screenshot" />
+            <TextView
+                android:textAppearance="?textAppearanceCaption"
+                android:ellipsize="end"
+                android:id="@id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:text="TextView"
+                android:maxLines="1"
+                android:layout_below="@id/slot"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginEnd="10.0dip"
+                android:layout_toStartOf="@id/load"
+                android:layout_toEndOf="@id/screenshot" />
+            <ImageView
+                android:id="@id/screenshot"
+                android:layout_width="80.0dip"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="10.0dip"
+                android:scaleType="fitXY"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10.0dip"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/ic_baseline_gamepad_24" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@id/load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Load"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.MaterialComponents.Button.TextButton" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40.0dip"
+                android:text="Delete"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.MaterialComponents.Button.TextButton" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Bình thường (0)</item>
+        <item>Hạ xung nhẹ (1)</item>
+        <item>Hạ xung vừa (2)</item>
+        <item>Hạ xung thấp nhất (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Theo hệ thống</item>
+        <item>Chiều dọc</item>
+        <item>Chiều ngang</item>
+        <item>Tự động</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Thêm bản vá</item>
+        <item>Chỉnh sửa bản vá</item>
+        <item>Xóa bản vá</item>
+        <item>Kích hoạt bản vá</item>
+        <item>Đóng menu</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Tắt (sử dụng tỉ lệ khung hình thường)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standard (4:3)</item>
+        <item>Widescreen (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Không</item>
+        <item>Bình thường (mặc định)</item>
+        <item>Bổ sung + Giữ nguyên dấu</item>
+        <item>Toàn bộ</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Vô hiệu hoá (mặc định)</item>
+        <item>x2</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Thấp nhất</item>
+        <item>Cơ bản (mặc định)</item>
+        <item>Trung bình</item>
+        <item>Cao</item>
+        <item>Đầy đủ</item>
+        <item>Siêu cao</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Tự động (mặc định)</item>
+        <item>Tắt</item>
+        <item>Thấp nhất</item>
+        <item>Một phần</item>
+        <item>Toàn bộ</item>
+        <item>Tích cực</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Tắt</item>
+        <item>Theo tỉ lệ</item>
+        <item>Không theo tỉ lệ (mặc định)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Tự động</item>
+        <item>Buộc tắt</item>
+        <item>Buộc bật</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Tắt (Mặc định)</item>
+        <item>Bình thường (vertex)</item>
+        <item>Đặc biệt (texture)</item>
+        <item>Đặc biệt (Texture - Aggressive)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Tự động (mặc định)</item>
+        <item>Tắt</item>
+        <item>Cơ bản (tạo Mips)</item>
+        <item>Đầy đủ (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Phần mềm</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Tắt (Mặc định)</item>
+        <item>Một nửa</item>
+        <item>Đầy đủ</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Không có (gỡ lỗi)</item>
+        <item>1 luồng</item>
+        <item>2 luồng</item>
+        <item>3 luồng</item>
+        <item>4 luồng</item>
+        <item>5 luồng</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Nearest-Neighbor (Point)</item>
+        <item>Bilinear (buộc dùng)</item>
+        <item>Bilinear (theo kiểu PS2)</item>
+        <item>Bilinear (buộc loại bỏ hoạ tiết)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Không có</item>
+        <item>Một phần</item>
+        <item>Đầy đủ (Hash Cache)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Không</item>
+        <item>Bộ lọc dòng quét</item>
+        <item>Bộ lọc đường chéo</item>
+        <item>Bộ lọc tam giác</item>
+        <item>Bộ lọc sóng</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Đồng bộ chính xác)</item>
+        <item>1 Khung hình</item>
+        <item>2 Khung hình</item>
+        <item>3 Khung hình</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Tới giá trị gần nhất</item>
+        <item>Tới giá trị vô cực âm</item>
+        <item>Tới giá trị vô cực dương</item>
+        <item>Tới giá trị 0/cắt gọn (Mặc Định)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Đã tắt</item>
+        <item>Đã bật</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Không có</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Chung</item>
+        <item>Hệ thống</item>
+        <item>Đồ hoạ</item>
+        <item>Âm thanh</item>
+        <item>Thẻ nhớ</item>
+        <item>Danh sách game</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Cổng 1</item>
+        <item>Cổng 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Không có</item>
+        <item>Bàn phím ảo</item>
+        <item>Có một cần điều khiển</item>
+        <item>Có hai cần điều khiển</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Gần nhất</item>
+        <item>Tuyến tính</item>
+        <item>Khối</item>
+        <item>Hermite</item>
+        <item>Catmull-Rom</item>
+        <item>Gaussian (Khuyến nghị)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (Khuyến nghị)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>Không</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Theo Hệ Thống</item>
+        <item>Sáng</item>
+        <item>Tối</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Đổi độ mờ</item>
+        <item>Thêm/Xoá nút</item>
+        <item>Dịch chuyển nút</item>
+        <item>Thay kích cỡ nút</item>
+        <item>Đặt lại bố cục</item>
+        <item>Thoát chỉnh sửa</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Không</item>
+        <item>Bình thường (mặc định)</item>
+        <item>Bổ sung</item>
+        <item>Bổ sung + Giữ nguyên dấu</item>
+    </string-array>
+</resources>

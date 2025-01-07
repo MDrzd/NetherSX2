@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ee_cycle_rate_entries">
+        <item>(आइए_चिचलै_रटै_अंतरिएस)</item>
+        <item>(आइए_चिचलै_रटै_अंतरिएस)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>डिवाइस सेटिंग उपयोग करें</item>
+        <item>पोर्ट्रेट</item>
+        <item>लैंडस्केप</item>
+        <item>सेन्सर के अनुसार</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>पैच डालिए</item>
+        <item>पैच एडिट करें</item>
+        <item>पैच क्लीयर करें</item>
+        <item>पैच टॉगल करें</item>
+        <item>क्लोज़ मेनू</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>None</item>
+        <item>साधारण (Default)</item>
+        <item>Extra + Preserve Sign</item>
+        <item>पूर्ण</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>बंद (डिफॉल्ट)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>मिनिमं</item>
+        <item>Basic (Default)</item>
+        <item>मीडीअम</item>
+        <item>हाई</item>
+        <item>पूर्ण</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Automatic (Default)</item>
+        <item>ऑफ</item>
+        <item>मिनिमं</item>
+        <item>आंशिक</item>
+        <item>पूर्ण</item>
+        <item>Aggressive</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>आटोमेटिक</item>
+        <item>फोर्स डिसेबल्ड</item>
+        <item>फोर्स एनबलेड</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>ऑफ (Default)</item>
+        <item>Normal (Vertex)</item>
+        <item>Special (Texture)</item>
+        <item>Special (Texture - Aggressive)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Automatic (Default)</item>
+        <item>ऑफ</item>
+        <item>Basic (Generate Mips)</item>
+        <item>Full (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>ओपन-गिएल</item>
+        <item>सॉफ्टवेयर</item>
+        <item>वलकन</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>ऑफ (Default)</item>
+        <item>आधा</item>
+        <item>पूर्ण</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>None</item>
+        <item>आंशिक</item>
+        <item>Full (Hash Cache)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>डिसेबल्ड</item>
+        <item>इनेबल</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>None</item>
+        <item>डूअलशॉक 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>सामान्य</item>
+        <item>सिस्टम</item>
+        <item>ग्राफिक्स</item>
+        <item>ऑडियो</item>
+        <item>मेमोरी कार्ड</item>
+        <item>गेम लिस्ट</item>
+        <item>बायोस</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>पोर्ट 1</item>
+        <item>पोर्ट 2</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>नेयरेस्ट</item>
+        <item>लिनीअर</item>
+        <item>क्यूबिक</item>
+        <item>हर्मिट</item>
+        <item>कातमूल-रोम</item>
+        <item>गौसीयन (Recommended)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>टाइम-स्ट्रेच (Reccomended)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>फॉलो सिस्टम</item>
+        <item>लाइट</item>
+        <item>डार्क</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Change Opacity</item>
+        <item>Add/Remove Buttons</item>
+        <item>Move Buttons</item>
+        <item>Resize Buttons</item>
+        <item>लेआउट रिसेट</item>
+        <item>Exit Editor</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>None</item>
+        <item>साधारण (Default)</item>
+        <item>Extra</item>
+        <item>Extra + Preserve Sign</item>
+    </string-array>
+</resources>

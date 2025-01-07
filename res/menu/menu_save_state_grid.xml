@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/load_state"
+        android:title="@string/emulation_menu_load_state" />
+    <item
+        android:id="@id/delete_state"
+        android:title="@string/resume_game_delete" />
+</menu>

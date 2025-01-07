@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/tristate_preference_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@id/disable"
+            android:background="@drawable/tristate_preference_button_background"
+            android:paddingLeft="10.0dip"
+            android:paddingTop="4.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingBottom="4.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:srcCompat="@drawable/ic_outline_cross_red_24" />
+        <ImageButton
+            android:id="@id/unset"
+            android:background="@drawable/tristate_preference_button_background"
+            android:paddingLeft="10.0dip"
+            android:paddingTop="4.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingBottom="4.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:srcCompat="@drawable/ic_baseline_remove_24" />
+        <ImageButton
+            android:id="@id/enable"
+            android:background="@drawable/tristate_preference_button_background"
+            android:paddingLeft="10.0dip"
+            android:paddingTop="4.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingBottom="4.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:srcCompat="@drawable/ic_baseline_check_green_24" />
+    </LinearLayout>
+</LinearLayout>

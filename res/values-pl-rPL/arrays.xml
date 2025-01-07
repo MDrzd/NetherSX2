@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>Przeciągnięcie palcem ekranu w lewo</item>
+        <item>Przeciągnięcie palcem ekranu w prawo</item>
+        <item>Przeciągnięcie palcem ekranu w górę</item>
+        <item>Przeciągnięcie palcem ekranu w dół</item>
+        <item>Accelerometer Turn Left (X)</item>
+        <item>Accelerometer Turn Right (X)</item>
+        <item>Accelerometer Tilt Backwards (Y)</item>
+        <item>Accelerometer Tilt Forwards (Y)</item>
+        <item>Accelerometer Rotate Left (Z)</item>
+        <item>Accelerometer Rotate Right (Z)</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Standardowe (0)</item>
+        <item>Lekkie obniżenie taktowania (1)</item>
+        <item>Średnie obniżenie taktowania (2)</item>
+        <item>Maksymalne obniżenie taktowania (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Użyj ustawień urządzenia</item>
+        <item>Pionowy</item>
+        <item>Poziomy</item>
+        <item>Według czujnika</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Dodaj łatkę</item>
+        <item>Edytuj łatki</item>
+        <item>Usuń łatki</item>
+        <item>Ustaw łatki</item>
+        <item>Zamknij menu</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Wyłączony (normalny współczynnik proporcji)</item>
+        <item>Automatyczne standardowe (Progresywne 4:3/3:2)</item>
+        <item>Standardowe (4:3)</item>
+        <item>Widescreen (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Bez</item>
+        <item>Standardowe (Domyślne)</item>
+        <item>Dodatkowe + zachowaj znak</item>
+        <item>Pełne</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Wyłączone (domyślnie)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Rozciągnij (wypełnij ekran)</item>
+        <item>Automatyczne standardowe (Progresywne 4:3/3:2)</item>
+        <item>Standardowe (4:3)</item>
+        <item>Widescreen (16:9)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Minimalne</item>
+        <item>Podstawowy (domyślny)</item>
+        <item>Średnie</item>
+        <item>Intensywne</item>
+        <item>Pełne</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Automatyczny (domyślny)</item>
+        <item>Wyłączone</item>
+        <item>Minimalne</item>
+        <item>Częściowe</item>
+        <item>Pełne</item>
+        <item>Agresywne</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Wyłączone</item>
+        <item>Skalowany</item>
+        <item>Nieskalowany (domyślnie)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Automatyczne</item>
+        <item>Wymuś wyłączenie</item>
+        <item>Wymuś włączenie</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Wyłączone (Domyślne)</item>
+        <item>Standardowe (Wierzchołkowe)</item>
+        <item>Szczególne (Teksturowe)</item>
+        <item>Szczególne (Teksturowe - agresywne)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Automatyczny (domyślny)</item>
+        <item>Wyłączone</item>
+        <item>Podstawowy (Generuj Mips)</item>
+        <item>Pełny (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>W oprogramowaniu</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Wyłączone (Domyślne)</item>
+        <item>Pół</item>
+        <item>Pełne</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Brak (debugowanie)</item>
+        <item>1 wątek</item>
+        <item>2 wątki</item>
+        <item>3 wątki</item>
+        <item>4 wątki</item>
+        <item>5 wątków</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Najbliższy-Sąsiad (Punkt)</item>
+        <item>Dwuliniowe (wymuszone)</item>
+        <item>Dwuliniowe (PS2)</item>
+        <item>Dwuliniowe (Wymuszone wyłączając Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Brak</item>
+        <item>Częściowe</item>
+        <item>Pełne (Hash Cache)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Bez</item>
+        <item>Filtr linii skanu</item>
+        <item>Filtr \"po przekątnej\"</item>
+        <item>Filtr \"trójkątów\"</item>
+        <item>Filtr \"falowanie\"</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Intensywna synchronizacja)</item>
+        <item>1 klatka</item>
+        <item>2 klatki</item>
+        <item>3 klatki</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Do najbliższego</item>
+        <item>Do minus nieskończoności</item>
+        <item>Do nieskończoności</item>
+        <item>Do zera (Domyślne)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Wyłączone</item>
+        <item>Włączone</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Brak</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Ogólne</item>
+        <item>System</item>
+        <item>Grafika</item>
+        <item>Audio</item>
+        <item>Karty Pamięci</item>
+        <item>Lista Gier</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Port 1</item>
+        <item>Port 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Bez</item>
+        <item>Kontroler bez gałek</item>
+        <item>Jedna gałka analogowa</item>
+        <item>Dwie gałki analogowe</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Najbliższa</item>
+        <item>Liniowa</item>
+        <item>Sześcienna</item>
+        <item>"Hermite'a"</item>
+        <item>Catmulla-Roma</item>
+        <item>Gaussa (Rekomendowana)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (rekomendowane)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>Bez</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Zgodnie z systemem</item>
+        <item>Jasny</item>
+        <item>Ciemny</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Zmień stopień przezroczystości</item>
+        <item>Dodaj/Usuń przyciski</item>
+        <item>Przesuń przyciski</item>
+        <item>Zmień rozmiar przycisków</item>
+        <item>Przywróć domyślny układ</item>
+        <item>Wyjdź z edytora</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Bez</item>
+        <item>Standardowe (Domyślne)</item>
+        <item>Dodatkowe</item>
+        <item>Dodatkowe + zachowaj znak</item>
+    </string-array>
+</resources>

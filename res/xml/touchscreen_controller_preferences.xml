@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/touchscreen_category_view">
+        <ListPreference
+            app:defaultValue="analog_stick"
+            app:entries="@array/settings_touchscreen_controller_view_entries"
+            app:entryValues="@array/settings_touchscreen_controller_view_values"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/View"
+            app:title="@string/settings_touchscreen_controller_view"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/settings_touchscreen_controller_port_entries"
+            app:entryValues="@array/settings_touchscreen_controller_port_values"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/PortIndex"
+            app:title="@string/settings_touchscreen_controller_port"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/AddRemoveButtons"
+            app:summary="@string/settings_summary_touchscreen_controller_add_remove_buttons"
+            app:title="@string/settings_touchscreen_controller_add_remove_buttons" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/EditPositions"
+            app:summary="@string/settings_summary_touchscreen_controller_move_buttons"
+            app:title="@string/settings_touchscreen_controller_move_buttons" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/EditScale"
+            app:summary="@string/settings_summary_touchscreen_controller_scale_buttons"
+            app:title="@string/settings_touchscreen_controller_scale_buttons" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/ToggleButtons"
+            app:summary="@string/settings_summary_touchscreen_controller_toggle_buttons"
+            app:title="@string/settings_touchscreen_controller_toggle_buttons" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/ResetLayout"
+            app:summary="@string/touchscreen_reset_layout_summary"
+            app:title="@string/touchscreen_reset_layout" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/touchscreen_category_settings">
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:defaultValue="75"
+            app:format="%d%%"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/Opacity"
+            app:maxValue="100"
+            app:minValue="0"
+            app:summary="@string/settings_summary_touchscreen_controller_opacity"
+            app:title="@string/settings_touchscreen_controller_opacity" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:defaultValue="0"
+            app:format="%ds"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/AutoHideTime"
+            app:maxValue="600"
+            app:minValue="0"
+            app:summary="@string/settings_summary_touchscreen_auto_hide_time"
+            app:title="@string/settings_touchscreen_auto_hide_time" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/AutoHide"
+            app:summary="@string/settings_summary_auto_hide_touchscreen_controller"
+            app:title="@string/settings_auto_hide_touchscreen_controller" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/BindToRightStick"
+            app:summary="@string/settings_summary_bind_to_right_stick"
+            app:title="@string/settings_bind_to_right_stick" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/TouchGliding"
+            app:summary="@string/settings_summary_touch_gliding"
+            app:title="@string/settings_touch_gliding" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/HapticFeedback"
+            app:summary="@string/settings_summary_vibrate_on_press"
+            app:title="@string/settings_vibrate_on_press" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="TouchscreenController/EnableVibration"
+            app:summary="@string/settings_summary_touchscreen_enable_vibration"
+            app:title="@string/settings_touchscreen_enable_vibration" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:defaultValue="10"
+            app:format="%d ms"
+            app:iconSpaceReserved="false"
+            app:interval="1"
+            app:key="AndroidInputSource/VibrationThrottle"
+            app:maxValue="1000"
+            app:minValue="0"
+            app:summary="@string/settings_summary_vibration_update_frequency"
+            app:title="@string/settings_vibration_update_frequency" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:defaultValue="8.0"
+            app:format="%.1fx"
+            app:iconSpaceReserved="false"
+            app:interval="0.5"
+            app:key="Pad/PointerXScale"
+            app:maxValue="50.0"
+            app:minValue="0.25"
+            app:multiplier="1.0"
+            app:summary="@string/settings_touchscreen_controller_scale_summary"
+            app:title="@string/settings_touchscreen_controller_x_scale" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:defaultValue="8.0"
+            app:format="%.1fx"
+            app:iconSpaceReserved="false"
+            app:interval="0.5"
+            app:key="Pad/PointerYScale"
+            app:maxValue="50.0"
+            app:minValue="0.25"
+            app:multiplier="1.0"
+            app:summary="@string/settings_touchscreen_controller_scale_summary"
+            app:title="@string/settings_touchscreen_controller_y_scale" />
+    </PreferenceCategory>
+</PreferenceScreen>

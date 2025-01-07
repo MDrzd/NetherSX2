@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_interface">
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/EnableFastBoot"
+            app:summary="@string/settings_summary_fast_boot"
+            app:title="@string/settings_fast_boot" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/EnableCheats"
+            app:summary="@string/settings_summary_patch_codes"
+            app:title="@string/settings_patch_codes"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/SaveStateOnShutdown"
+            app:summary="@string/settings_summary_save_state_on_shutdown"
+            app:title="@string/settings_save_state_on_shutdown"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="UI/ExpandToCutout"
+            app:summary="@string/settings_summary_expand_to_cutout_area"
+            app:title="@string/settings_expand_to_cutout_area" />
+        <ListPreference
+            app:defaultValue="unspecified"
+            app:entries="@array/emulation_activity_orientation_entries"
+            app:entryValues="@array/emulation_activity_orientation_values"
+            app:iconSpaceReserved="false"
+            app:key="UI/EmulationActivityOrientation"
+            app:title="@string/settings_emulation_screen_orientation"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="-1"
+            app:entries="@array/display_alignment_entries"
+            app:entryValues="@array/display_alignment_values"
+            app:iconSpaceReserved="false"
+            app:key="UI/DisplayAlignment"
+            app:title="@string/settings_display_alignment"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="none"
+            app:entries="@array/settings_language_entries"
+            app:entryValues="@array/settings_language_values"
+            app:iconSpaceReserved="false"
+            app:key="UI/Language"
+            app:title="@string/settings_ui_language"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="follow_system"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:iconSpaceReserved="false"
+            app:key="UI/Theme"
+            app:title="@string/settings_theme"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_osd">
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowMessages"
+            app:summary="@string/settings_summary_show_messages"
+            app:title="@string/settings_show_notifications"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowFPS"
+            app:summary="@string/settings_summary_show_fps"
+            app:title="@string/settings_show_fps"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowSpeed"
+            app:summary="@string/settings_summary_show_speed"
+            app:title="@string/settings_show_speed"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowResolution"
+            app:summary="@string/settings_summary_show_resolution"
+            app:title="@string/settings_show_resolution"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowCPU"
+            app:summary="@string/settings_summary_show_cpu_usage"
+            app:title="@string/settings_show_cpu_usage"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowGPU"
+            app:summary="@string/settings_summary_show_gpu_usage"
+            app:title="@string/settings_show_gpu_usage"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowGSStats"
+            app:summary="@string/settings_summary_show_gs_stats"
+            app:title="@string/settings_show_gs_stats"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowFrameTimes"
+            app:summary="@string/settings_summary_show_frame_times"
+            app:title="@string/settings_show_frame_times"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowVersionInfo"
+            app:summary="@string/settings_summary_show_version_info"
+            app:title="@string/settings_show_version_info"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowIndicators"
+            app:summary="@string/settings_summary_show_indicators"
+            app:title="@string/settings_show_indicators"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowSettings"
+            app:summary="@string/settings_summary_show_settings"
+            app:title="@string/settings_show_settings"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowInputs"
+            app:summary="@string/settings_summary_show_inputs"
+            app:title="@string/settings_show_inputs"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:defaultValue="100.0"
+            app:format="%.0f%%"
+            app:iconSpaceReserved="false"
+            app:interval="1.0"
+            app:key="EmuCore/GS/osd_scale"
+            app:maxValue="300.0"
+            app:minValue="0.01"
+            app:multiplier="1.0"
+            app:summary="@string/settings_summary_osd_scale"
+            app:title="@string/settings_osd_scale" />
+    </PreferenceCategory>
+</PreferenceScreen>

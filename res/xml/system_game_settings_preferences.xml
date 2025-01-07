@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_performance">
+        <ListPreference
+            app:entries="@array/ee_cycle_rate_entries"
+            app:entryValues="@array/ee_cycle_rate_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/EECycleRate"
+            app:title="@string/settings_ee_cycle_rate"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/ee_cycle_skip_entries"
+            app:entryValues="@array/ee_cycle_skip_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/EECycleSkip"
+            app:title="@string/settings_ee_cycle_skip"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/affinity_control_entries"
+            app:entryValues="@array/affinity_control_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/AffinityControlMode"
+            app:title="@string/settings_affinity_control_mode"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/vuThread"
+            app:summary="@string/settings_summary_multithreaded_vu1"
+            app:title="@string/settings_multithreaded_vu1"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/vu1Instant"
+            app:summary="@string/settings_summary_instant_vu1"
+            app:title="@string/settings_instant_vu1"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/fastCDVD"
+            app:summary="@string/settings_summary_enable_fast_cdvd"
+            app:title="@string/settings_enable_fast_cdvd"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/WarnAboutUnsafeSettings"
+            app:summary="@string/settings_summary_warn_about_unsafe_settings"
+            app:title="@string/settings_warn_about_unsafe_settings"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_speed_control">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/FrameLimitEnable"
+            app:summary="@string/settings_summary_enable_frame_limit"
+            app:title="@string/settings_enable_frame_limit"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:defaultValue="1.0"
+            app:format="%.1f%%"
+            app:iconSpaceReserved="false"
+            app:interval="0.01"
+            app:key="Framerate/NominalScalar"
+            app:maxValue="3.0"
+            app:minValue="0.1"
+            app:multiplier="100.0"
+            app:nullable="true"
+            app:title="@string/settings_normal_speed"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:defaultValue="2.0"
+            app:format="%.1f%%"
+            app:iconSpaceReserved="false"
+            app:interval="0.01"
+            app:key="Framerate/TurboScalar"
+            app:maxValue="3.0"
+            app:minValue="0.1"
+            app:multiplier="100.0"
+            app:nullable="true"
+            app:title="@string/settings_turbo_speed"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:defaultValue="0.5"
+            app:format="%.1f%%"
+            app:iconSpaceReserved="false"
+            app:interval="0.01"
+            app:key="Framerate/SlomoScalar"
+            app:maxValue="3.0"
+            app:minValue="0.1"
+            app:multiplier="100.0"
+            app:nullable="true"
+            app:title="@string/settings_slowmo_speed"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

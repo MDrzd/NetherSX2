@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (-1)</item>
+        <item>180% (-2)</item>
+        <item>300% (-3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>通常 (0)</item>
+        <item>低いアンダークロック (1)</item>
+        <item>程々のアンダークロック (2)</item>
+        <item>最大のアンダークロック (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>デバイスの設定を使用</item>
+        <item>縦画面</item>
+        <item>横画面</item>
+        <item>自動回転</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>パッチを追加</item>
+        <item>パッチを編集する</item>
+        <item>パッチをクリアする</item>
+        <item>パッチをトグル</item>
+        <item>メニューを閉じる</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>オフ (通常のアスペクト比を使用)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standard (4:3)</item>
+        <item>Widescreen (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>なし</item>
+        <item>通常 (デフォルト)</item>
+        <item>エキストラ＋符号保持</item>
+        <item>フル</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>無効 (デフォルト)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>最低</item>
+        <item>Basic (Default)</item>
+        <item>中</item>
+        <item>高</item>
+        <item>フル</item>
+        <item>最高</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>オフ</item>
+        <item>Scaled</item>
+        <item>Unscaled (Default)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>自動</item>
+        <item>強制的に無効化</item>
+        <item>強制的に有効化</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>オフ (デフォルト)</item>
+        <item>通常 (バーテックス)</item>
+        <item>スペシャル (テキスト)</item>
+        <item>スペシャル（テクスチャ-アグレッシブ）</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Automatic (Default)</item>
+        <item>オフ</item>
+        <item>Basic (Generate Mips)</item>
+        <item>Full (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>ソフトウェア</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>オフ (デフォルト)</item>
+        <item>ハーフ</item>
+        <item>フル</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>最近傍補間 (ドットサンプリング)</item>
+        <item>バイリニア (強制)</item>
+        <item>バイリニア (PS2)</item>
+        <item>バイリニア (スプライト以外強制)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>なし</item>
+        <item>スキャンラインフィルター</item>
+        <item>ダイアゴナルフィルター</item>
+        <item>トライアングルフィルタ</item>
+        <item>ウェーブフィルタ</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (ハード同期)</item>
+        <item>1 フレーム</item>
+        <item>２フレーム</item>
+        <item>３フレーム</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>最近接</item>
+        <item>負の無限大</item>
+        <item>正の無限大</item>
+        <item>切り捨て (デフォルト)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>無効</item>
+        <item>有効</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>一般設定</item>
+        <item>システム</item>
+        <item>グラフィック</item>
+        <item>オーディオ</item>
+        <item>メモリーカード</item>
+        <item>ゲームリスト</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>ポート 1</item>
+        <item>ポート 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>なし</item>
+        <item>デジタルパッド</item>
+        <item>シングルアナログパッド</item>
+        <item>デュアルアナログパッド</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>最近接</item>
+        <item>直線</item>
+        <item>キュービック</item>
+        <item>エルミート</item>
+        <item>Catmull-Rom</item>
+        <item>ガウシアン (推薦)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (推奨)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>システムと同じ</item>
+        <item>ライトモード</item>
+        <item>ダークモード</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>透明度を変更</item>
+        <item>ボタンを追加/削除</item>
+        <item>ボタンを移動</item>
+        <item>ボタンのサイズを変更</item>
+        <item>レイアウトをリセット</item>
+        <item>エディターを終了する</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>なし</item>
+        <item>通常 (デフォルト)</item>
+        <item>エキストラ</item>
+        <item>エキストラ＋符号保持</item>
+    </string-array>
+</resources>

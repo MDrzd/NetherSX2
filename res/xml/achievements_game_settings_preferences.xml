@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_achievements_global_settings">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Enabled"
+            app:summary="@string/settings_summary_achievements_enable"
+            app:title="@string/settings_achievements_enable" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/ChallengeMode"
+            app:summary="@string/settings_summary_achievements_challenge_mode"
+            app:title="@string/settings_achievements_challenge_mode" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Leaderboards"
+            app:summary="@string/settings_summary_achievements_leaderboards"
+            app:title="@string/settings_achievements_leaderboards" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/RichPresence"
+            app:summary="@string/settings_summary_achievements_rich_presence"
+            app:title="@string/settings_achievements_rich_presence" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Notifications"
+            app:summary="@string/settings_summary_achievements_notifications"
+            app:title="@string/settings_achievements_notifications" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/SoundEffects"
+            app:summary="@string/settings_summary_achievements_sound_effects"
+            app:title="@string/settings_achievements_sound_effects" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/PrimedIndicators"
+            app:summary="@string/settings_summary_challenge_indicators"
+            app:title="@string/settings_achievements_challenge_indicators" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_audio_advanced">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="Achievements/UnofficialTestMode"
+            app:summary="@string/settings_summary_achievements_unofficial_test_mode"
+            app:title="@string/settings_achievements_unofficial_test_mode" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="Achievements/TestMode"
+            app:summary="@string/settings_summary_achievements_test_mode"
+            app:title="@string/settings_achievements_test_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_achievements_disclaimer" />
+</PreferenceScreen>

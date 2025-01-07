@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>觸控式螢幕向左滑動</item>
+        <item>觸控式螢幕向右滑動</item>
+        <item>觸控式螢幕向上滑動</item>
+        <item>觸控式螢幕向下滑動</item>
+        <item>加速計向左轉 (X)</item>
+        <item>加速計向右轉 (X)</item>
+        <item>加速計向後傾斜 (Y)</item>
+        <item>加速計向前傾斜 (Y)</item>
+        <item>加速計向左旋轉 (Z)</item>
+        <item>加速計向右旋轉 (Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>自動</item>
+        <item>左/上</item>
+        <item>置中</item>
+        <item>右/下</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>正常 (0)</item>
+        <item>輕度降頻 (1)</item>
+        <item>中度降頻 (2)</item>
+        <item>最大降頻 (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>系統預設</item>
+        <item>直向</item>
+        <item>橫向</item>
+        <item>基於感應器</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>新增金手指</item>
+        <item>編輯金手指</item>
+        <item>清除金手指</item>
+        <item>切換金手指開關</item>
+        <item>關閉選單</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>關閉 (使用標準長寬比)</item>
+        <item>自動標準 (4:3/3:2 漸進式)</item>
+        <item>標準 (4:3)</item>
+        <item>寬螢幕 (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>無</item>
+        <item>正常 (預設)</item>
+        <item>額外 + 保留記號</item>
+        <item>完全</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>已停用 (預設)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>延展 (全螢幕)</item>
+        <item>自動標準 (4:3/3:2 漸進式)</item>
+        <item>標準 (4:3)</item>
+        <item>寬螢幕 (16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>無 (最近相鄰)</item>
+        <item>雙線性 (平滑)</item>
+        <item>雙線性 (銳利)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>最小</item>
+        <item>基本 (預設)</item>
+        <item>中等</item>
+        <item>最高</item>
+        <item>完全</item>
+        <item>超級</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>已停用</item>
+        <item>僅銳利化 (內部解析度)</item>
+        <item>銳利化並調整大小 (顯示器解析度)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>已停用</item>
+        <item>一般</item>
+        <item>積極</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (已停用)</item>
+        <item>1 (64 最大寬度)</item>
+        <item>2 (128 最大寬度)</item>
+        <item>3 (192 最大寬度)</item>
+        <item>4 (256 最大寬度)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>自動 (預設)</item>
+        <item>關閉</item>
+        <item>最小</item>
+        <item>部分</item>
+        <item>完全</item>
+        <item>積極</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>關閉</item>
+        <item>已縮放</item>
+        <item>未縮放 (預設)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>自動</item>
+        <item>強制停用</item>
+        <item>強制啟用</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>關閉 (預設)</item>
+        <item>正常 (頂點)</item>
+        <item>特殊 (紋理)</item>
+        <item>特殊 (紋理 - 積極)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>精確 (建議)</item>
+        <item>停用讀回 (同步 GS 處理序)</item>
+        <item>非同步 (非決定性)</item>
+        <item>已停用 (忽略傳輸)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>自動</item>
+        <item>無</item>
+        <item>Weave (頂場優先)</item>
+        <item>Weave (底場優先)</item>
+        <item>Bob (頂場優先)</item>
+        <item>Bob (底場優先)</item>
+        <item>Blend (頂場優先)</item>
+        <item>Blend (底場優先)</item>
+        <item>Adaptive (頂場優先)</item>
+        <item>Adaptive (底場優先)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>自動 (預設)</item>
+        <item>關閉</item>
+        <item>基本 (產生 Mips)</item>
+        <item>完全 (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>軟體</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>關閉 (預設)</item>
+        <item>一半</item>
+        <item>完全</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>無 (偵錯)</item>
+        <item>1 個執行緒</item>
+        <item>2 個執行緒</item>
+        <item>3 個執行緒</item>
+        <item>4 個執行緒</item>
+        <item>5 個執行緒</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>自動</item>
+        <item>已強制停用</item>
+        <item>已強制啟用</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>最近相鄰 (點)</item>
+        <item>雙線性 (強制)</item>
+        <item>雙線性 (PS2)</item>
+        <item>雙線性 (強制排除子畫面)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>無</item>
+        <item>部分</item>
+        <item>完全 (散列快取)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>自動 (預設)</item>
+        <item>已停用 (關閉)</item>
+        <item>己啟用 (PS2)</item>
+        <item>已啟用 (強制)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>無</item>
+        <item>掃描線濾鏡</item>
+        <item>對角線濾鏡</item>
+        <item>三角形濾鏡</item>
+        <item>波紋濾鏡</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x 原生</item>
+        <item>0.75x 原生</item>
+        <item>1x 原生</item>
+        <item>1.25x 原生</item>
+        <item>1.5x 原生</item>
+        <item>1.75x 原生</item>
+        <item>2x 原生</item>
+        <item>2.25x 原生</item>
+        <item>2.5x 原生</item>
+        <item>2.75x 原生</item>
+        <item>3x 原生</item>
+        <item>3.5x 原生</item>
+        <item>4x 原生</item>
+        <item>5x 原生</item>
+        <item>6x 原生</item>
+        <item>7x 原生</item>
+        <item>8x 原生</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (硬同步)</item>
+        <item>1 個影格</item>
+        <item>2 個影格</item>
+        <item>3 個影格</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>趨近鄰近值</item>
+        <item>趨近負無窮大</item>
+        <item>趨近正無窮大</item>
+        <item>趨近 0 (預設)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>已停用</item>
+        <item>己啟用</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>無</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>一般</item>
+        <item>系統</item>
+        <item>圖形</item>
+        <item>音訊</item>
+        <item>記憶卡</item>
+        <item>遊戲清單</item>
+        <item>BIOS</item>
+        <item>成就</item>
+        <item>進階</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>連接埠 1</item>
+        <item>連接埠 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>無</item>
+        <item>方向鍵</item>
+        <item>單搖桿</item>
+        <item>雙搖桿</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>最近鄰插值</item>
+        <item>線性插值</item>
+        <item>三次樣條插值</item>
+        <item>賀米特插值</item>
+        <item>卡特姆 - 羅姆插值</item>
+        <item>高斯插值 (建議)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>時間延展 (建議)</item>
+        <item>非同步混合 (中斷全動作視訊/遊戲)</item>
+        <item>無</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>跟隨系統</item>
+        <item>淺色</item>
+        <item>深色</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>變更不透明度</item>
+        <item>新增或移除按鈕</item>
+        <item>移動按鈕</item>
+        <item>調整按鈕大小</item>
+        <item>重設版面配置</item>
+        <item>離開編輯器</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>無</item>
+        <item>正常 (預設)</item>
+        <item>額外</item>
+        <item>額外 + 保留記號</item>
+    </string-array>
+</resources>

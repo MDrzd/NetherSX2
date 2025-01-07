@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ff5e92f3</color>
+    <color name="colorMainBackground">#ff202124</color>
+    <color name="colorNavigation">#ff000000</color>
+    <color name="colorPrimary">#ff2196f3</color>
+    <color name="colorPrimaryDark">#ff121212</color>
+    <color name="colorSurface">#ff121212</color>
+    <color name="colorToolbarBackground">#ff303134</color>
+    <color name="emulationActivityPauseBackground">#cc000000</color>
+    <color name="fab_background">#ff222222</color>
+    <color name="fab_color">#ffffffff</color>
+</resources>

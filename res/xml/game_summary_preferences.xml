@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_details">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_TITLE__"
+            app:title="@string/game_properties_title" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_SERIAL__"
+            app:title="@string/game_properties_serial" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_CRC__"
+            app:title="@string/game_properties_crc" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_TIME_PLAYED__"
+            app:title="@string/game_properties_time_played" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_LAST_PLAYED__"
+            app:title="@string/game_properties_last_played" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_TYPE__"
+            app:title="@string/game_properties_type" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_REGION__"
+            app:title="@string/game_properties_region" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_COMPATIBILITY_RATING__"
+            app:title="@string/game_properties_compatibility_rating" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_PATH__"
+            app:title="@string/game_properties_path" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_DISC_PATH__"
+            app:title="@string/game_properties_disc_path" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__GAME_PROPERTIES_CLEAR_DISC_PATH__"
+            app:summary="@string/game_properties_summary_clear_disc_path"
+            app:title="@string/game_properties_clear_disc_path" />
+    </PreferenceCategory>
+</PreferenceScreen>

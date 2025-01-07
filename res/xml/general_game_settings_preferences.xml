@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_presets">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__COPY_GAME_SETTINGS__"
+            app:summary="@string/game_settings_summary_copy_settings"
+            app:title="@string/game_settings_copy_settings" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__RESET_GAME_SETTINGS__"
+            app:summary="@string/game_settings_summary_reset_settings"
+            app:title="@string/game_settings_reset_settings" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__RESET_GAME_SETTINGS_UNSAFE__"
+            app:summary="@string/game_settings_summary_reset_settings_unsafe"
+            app:title="@string/game_settings_reset_settings_unsafe" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__COPY_HOTKEY_BINDINGS__"
+            app:summary="@string/game_settings_summary_copy_hotkey_bindings"
+            app:title="@string/game_settings_copy_hotkey_bindings" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__CLEAR_GAME_SETTINGS__"
+            app:summary="@string/game_settings_summary_clear_settings"
+            app:title="@string/game_settings_clear_settings" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_controller">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="Pad/InputProfileName"
+            app:title="@string/settings_input_profile" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_interface">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/EnableCheats"
+            app:summary="@string/settings_summary_patch_codes"
+            app:title="@string/settings_patch_codes"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/SaveStateOnShutdown"
+            app:summary="@string/settings_summary_save_state_on_shutdown"
+            app:title="@string/settings_save_state_on_shutdown"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="UI/ExpandToCutout"
+            app:summary="@string/settings_summary_expand_to_cutout_area"
+            app:title="@string/settings_expand_to_cutout_area"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/emulation_activity_orientation_entries"
+            app:entryValues="@array/emulation_activity_orientation_values"
+            app:iconSpaceReserved="false"
+            app:key="UI/EmulationActivityOrientation"
+            app:title="@string/settings_emulation_screen_orientation"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/display_alignment_entries"
+            app:entryValues="@array/display_alignment_values"
+            app:iconSpaceReserved="false"
+            app:key="UI/DisplayAlignment"
+            app:title="@string/settings_display_alignment"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_osd">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowMessages"
+            app:summary="@string/settings_summary_show_messages"
+            app:title="@string/settings_show_notifications"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowFPS"
+            app:summary="@string/settings_summary_show_fps"
+            app:title="@string/settings_show_fps"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowSpeed"
+            app:summary="@string/settings_summary_show_speed"
+            app:title="@string/settings_show_speed"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowResolution"
+            app:summary="@string/settings_summary_show_resolution"
+            app:title="@string/settings_show_resolution"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowCPU"
+            app:summary="@string/settings_summary_show_cpu_usage"
+            app:title="@string/settings_show_cpu_usage"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowGPU"
+            app:summary="@string/settings_summary_show_gpu_usage"
+            app:title="@string/settings_show_gpu_usage"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowGSStats"
+            app:summary="@string/settings_summary_show_gs_stats"
+            app:title="@string/settings_show_gs_stats"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowFrameTimes"
+            app:summary="@string/settings_summary_show_frame_times"
+            app:title="@string/settings_show_frame_times"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowVersionInfo"
+            app:summary="@string/settings_summary_show_version_info"
+            app:title="@string/settings_show_version_info"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowIndicators"
+            app:summary="@string/settings_summary_show_indicators"
+            app:title="@string/settings_show_indicators"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowSettings"
+            app:summary="@string/settings_summary_show_settings"
+            app:title="@string/settings_show_settings"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OsdShowInputs"
+            app:summary="@string/settings_summary_show_inputs"
+            app:title="@string/settings_show_inputs"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:format="%.0f%%"
+            app:iconSpaceReserved="false"
+            app:interval="1.0"
+            app:key="EmuCore/GS/osd_scale"
+            app:maxValue="300.0"
+            app:minValue="0.05"
+            app:multiplier="1.0"
+            app:nullable="true"
+            app:summary="@string/settings_summary_osd_scale"
+            app:title="@string/settings_osd_scale" />
+    </PreferenceCategory>
+</PreferenceScreen>

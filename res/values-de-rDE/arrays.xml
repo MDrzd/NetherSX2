@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Normal (0)</item>
+        <item>Leichte Untertaktung (1)</item>
+        <item>Mittelmäßige Untertaktung (2)</item>
+        <item>Maximale Untertaktung (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Geräteeinstellung verwenden</item>
+        <item>Hochformat</item>
+        <item>Querformat</item>
+        <item>Automatsch (Sensorbasiert)</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Patch hinzufügen</item>
+        <item>Patches bearbeiten</item>
+        <item>Patches löschen</item>
+        <item>Patches ein/aus</item>
+        <item>Menü schließen</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Aus (Normales Seitenverhältnis verwenden)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standard (4:3)</item>
+        <item>Widescreen (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Keine</item>
+        <item>Normal (Standard)</item>
+        <item>Extra + Vorzeichen behalten</item>
+        <item>Voll</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Deaktiviert (Standard)</item>
+        <item>2X</item>
+        <item>4X</item>
+        <item>8X</item>
+        <item>16X</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Minimal</item>
+        <item>Einfach (Standard)</item>
+        <item>Mittel</item>
+        <item>Hoch</item>
+        <item>Voll</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Automatisch (Standard)</item>
+        <item>Aus</item>
+        <item>Minimal</item>
+        <item>Teilweise</item>
+        <item>Voll</item>
+        <item>Aggressiv</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Aus</item>
+        <item>Skaliert</item>
+        <item>Unskaliert (Standart)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Automatisch</item>
+        <item>Immer deaktiviert</item>
+        <item>Immer aktiviert</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Aus (Standard)</item>
+        <item>Normal (Vertex)</item>
+        <item>Spezial (Textur)</item>
+        <item>Spezial (Textur - Aggressiv)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Automatisch (Standard)</item>
+        <item>Aus</item>
+        <item>Einfach (Mips Generieren)</item>
+        <item>Komplett (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Software</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Aus (Standard)</item>
+        <item>Halb</item>
+        <item>Voll</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Nähster-Nachbar (Punkt)</item>
+        <item>Bilinear (Erzwungen)</item>
+        <item>Bilinear (PS2)</item>
+        <item>Bilinear (Erzwungen, Außer Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Keine</item>
+        <item>Teilweise</item>
+        <item>Voll (Hash Cache)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Keine</item>
+        <item>Scanlinefilter</item>
+        <item>Diagonalfilter</item>
+        <item>Dreiecksfilter</item>
+        <item>Wellenfilter</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Feste Synchronisation)</item>
+        <item>1 Frame</item>
+        <item>2 Frames</item>
+        <item>3 Frames</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Gegen den Nächsten</item>
+        <item>In Richtung Negative Unendlichkeit</item>
+        <item>In Richtung Positive Unendlichkeit</item>
+        <item>Gegen Null/Chop (Standard)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Deaktiviert</item>
+        <item>Aktiviert</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Keine</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Allgemein</item>
+        <item>System</item>
+        <item>Grafik</item>
+        <item>Audio</item>
+        <item>Speicherkarten</item>
+        <item>Spieleliste</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Port 1</item>
+        <item>Port 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Keine</item>
+        <item>Digitales Pad</item>
+        <item>Einzelanalog Pad</item>
+        <item>Doppel-Analog Pad</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Nächster Nachbar</item>
+        <item>Linear</item>
+        <item>Kubisch</item>
+        <item>Hermite</item>
+        <item>Catmull-Rom</item>
+        <item>Gaußisch (Empfohlen)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (Empfohlen)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>Keine</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Systemstandard</item>
+        <item>Hell</item>
+        <item>Dunkel</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Deckkraft ändern</item>
+        <item>Tasten hinzufügen/entfernen</item>
+        <item>Tasten verschieben</item>
+        <item>Tasten skalieren</item>
+        <item>Layout zurücksetzen</item>
+        <item>Editor verlassen</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Keine</item>
+        <item>Normal (Standard)</item>
+        <item>Extra</item>
+        <item>Extra + Vorzeichen behalten</item>
+    </string-array>
+</resources>

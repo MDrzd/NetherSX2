@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_information">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__DEVICE_INFO__"
+            app:title="@string/settings_device_info" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__DRIVER_INFO__"
+            app:title="@string/settings_graphics_driver_info" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_advanced_system_options">
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableEE"
+            app:summary="@string/settings_summary_enable_ee_recompiler"
+            app:title="@string/settings_enable_ee_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableVU0"
+            app:summary="@string/settings_summary_enable_vu_recompiler"
+            app:title="@string/settings_enable_vu0_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableVU1"
+            app:summary="@string/settings_summary_enable_vu_recompiler"
+            app:title="@string/settings_enable_vu1_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableIOP"
+            app:summary="@string/settings_summary_enable_iop"
+            app:title="@string/settings_enable_iop_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/fpuCorrectAddSub"
+            app:summary="@string/settings_summary_ee_fpu_correct_add_sub"
+            app:title="@string/settings_ee_fpu_correct_add_sub"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableFastmem"
+            app:summary="@string/settings_summary_enable_fastmem"
+            app:title="@string/settings_enable_fastmem"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_advanced_graphics_rendering">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/paltex"
+            app:summary="@string/settings_summary_gpu_palette_conversion"
+            app:title="@string/settings_gpu_palette_conversion"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="2"
+            app:entries="@array/gs_dithering_entries"
+            app:entryValues="@array/gs_dithering_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/dithering_ps2"
+            app:title="@string/settings_dithering"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/gs_interlace_entries"
+            app:entryValues="@array/gs_interlace_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/deinterlace_mode"
+            app:title="@string/settings_interlacing"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="-1"
+            app:entries="@array/gs_crc_hack_entries"
+            app:entryValues="@array/gs_crc_hack_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/CRCHackLevel"
+            app:title="@string/settings_crc_hack_level"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="2"
+            app:entries="@array/gs_vsync_queue_size_entries"
+            app:entryValues="@array/gs_vsync_queue_size_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/VsyncQueueSize"
+            app:title="@string/settings_vsync_queue_size"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="2"
+            app:entries="@array/gs_sw_extra_threads_entries"
+            app:entryValues="@array/gs_sw_extra_threads_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/extrathreads"
+            app:title="@string/settings_software_rendering_threads"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_advanced_graphics_display">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/IntegerScaling"
+            app:summary="@string/settings_summary_integer_scaling"
+            app:title="@string/settings_integer_scaling"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/pcrtc_offsets"
+            app:summary="@string/settings_summary_pcrtc_offsets"
+            app:title="@string/settings_pcrtc_offsets"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/pcrtc_overscan"
+            app:summary="@string/settings_summary_show_overscan"
+            app:title="@string/settings_show_overscan"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/pcrtc_antiblur"
+            app:summary="@string/settings_summary_anti_blue"
+            app:title="@string/settings_anti_blur"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/disable_interlace_offset"
+            app:summary="@string/settings_summary_disable_interlace_offset"
+            app:title="@string/settings_disable_interlace_offset"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/SkipDuplicateFrames"
+            app:summary="@string/settings_summary_skip_presenting_duplicate_frames"
+            app:title="@string/settings_skip_presenting_duplicate_frames"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/SyncToHostRefreshRate"
+            app:summary="@string/settings_summary_gs_sync_to_host_refresh"
+            app:title="@string/settings_gs_sync_to_host_refresh"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DisableThreadedPresentation"
+            app:summary="@string/settings_summary_threaded_presentation"
+            app:title="@string/settings_disable_threaded_presentation"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_debugging">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Logging/EnableSystemConsole"
+            app:summary="@string/settings_summary_logcat_logging"
+            app:title="@string/settings_logcat_logging"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Logging/EnableFileLogging"
+            app:summary="@string/settings_summary_file_logging"
+            app:title="@string/settings_file_logging"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Logging/EnableEEConsole"
+            app:summary="@string/settings_summary_ee_console"
+            app:title="@string/settings_ee_console"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Logging/EnableIOPConsole"
+            app:summary="@string/settings_summary_iop_console"
+            app:title="@string/settings_iop_console"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CdvdVerboseReads"
+            app:summary="@string/settings_summary_cdvd_verbose_reads"
+            app:title="@string/settings_cdvd_verbose_reads"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UseDebugDevice"
+            app:summary="@string/settings_summary_debug_gpu_device"
+            app:title="@string/settings_debug_gpu_device"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DisableFramebufferFetch"
+            app:summary="@string/settings_summary_disable_framebuffer_fetch"
+            app:title="@string/settings_disable_framebuffer_fetch"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DisableDualSourceBlend"
+            app:summary="@string/settings_summary_disable_dual_source_blend"
+            app:title="@string/settings_disable_dual_source_blend"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="-1"
+            app:entries="@array/gs_texture_barriers_entries"
+            app:entryValues="@array/gs_texture_barriers_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OverrideTextureBarriers"
+            app:title="@string/settings_override_texture_barriers"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="-1"
+            app:entries="@array/gs_half_bottom_override_entries"
+            app:entryValues="@array/gs_half_bottom_override_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OverrideGeometryShaders"
+            app:title="@string/settings_override_geometry_shaders"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="__SAVE_GS_DUMP__"
+            app:summary="@string/settings_summary_save_gs_dump"
+            app:title="@string/settings_save_gs_dump" />
+    </PreferenceCategory>
+</PreferenceScreen>

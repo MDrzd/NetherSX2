@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>Geser Ke Kiri Layar Sentuh</item>
+        <item>Geser Ke Kanan Layar Sentuh</item>
+        <item>Geser Ke Atas Layar Sentuh</item>
+        <item>Geser Ke Bawah Layar Sentuh</item>
+        <item>Akselerometer Berbelok ke Kiri (X)</item>
+        <item>Akselerometer Berbelok Ke Kanan (X)</item>
+        <item>Akselerometer Miring Ke Belakang (Y)</item>
+        <item>Akselerometer Miring Ke Depan (Y)</item>
+        <item>Akselerometer Berputar Ke Kiri (Z)</item>
+        <item>Akselerometer Berputar Ke Kanan (Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>Otomatis</item>
+        <item>Kiri/Atas</item>
+        <item>Tengah</item>
+        <item>Kanan/Bawah</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Normal (0)</item>
+        <item>Underclock Ringan (1)</item>
+        <item>Underclock Sedang (2)</item>
+        <item>Underclock Maksimum (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Ikuti Setelan Sistem</item>
+        <item>Tegak</item>
+        <item>Lanskap</item>
+        <item>Berdasarkan Sensor</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Tambah Patch</item>
+        <item>Ubah Patch</item>
+        <item>Hapus Patch</item>
+        <item>Nyalakan/Matikan Patch</item>
+        <item>Tutup Menu</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Mati (Gunakan Aspek Rasio Normal)</item>
+        <item>Standar Otomatis (4:3/3:2 Progressive)</item>
+        <item>Standar (4:3)</item>
+        <item>Layar Lebar (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Tidak Ada</item>
+        <item>Normal (Bawaan)</item>
+        <item>Ekstra + Simpan Tanda</item>
+        <item>Penuh</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Matikan (Bawaan)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Rentangkan (Penuhi Layar)</item>
+        <item>Standar Otomatis (4:3/3:2 Progressive)</item>
+        <item>Standar (4:3)</item>
+        <item>Layar Lebar (16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>Tidak ada (Nearest-Neighbor)</item>
+        <item>Bilinear (Halus)</item>
+        <item>Bilinear (Tajam)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Minimum</item>
+        <item>Dasar (Bawaan)</item>
+        <item>Sedang</item>
+        <item>Tinggi</item>
+        <item>Penuh</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>Nonaktif</item>
+        <item>Hanya Mempertajam (Resolusi Internal)</item>
+        <item>Mempertajam dan Mengubah Ukuran (Resolusi Display)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>Nonaktif</item>
+        <item>Normal</item>
+        <item>Agresif</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (Nonaktif)</item>
+        <item>1 (64 Lebar Maksimal)</item>
+        <item>2 (128 Lebar Maksimal)</item>
+        <item>3 (192 Lebar Maksimal)</item>
+        <item>4 (256 Lebar Maksimal)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Otomatis (Bawaan)</item>
+        <item>Mati</item>
+        <item>Minimum</item>
+        <item>Sebagian</item>
+        <item>Penuh</item>
+        <item>Agresif</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Mati</item>
+        <item>Berskala</item>
+        <item>Tanpa Skala (Bawaan)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Otomatis</item>
+        <item>Nonaktifkan Paksa</item>
+        <item>Aktifkan Paksa</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Mati (Bawaan)</item>
+        <item>Normal (Vertex)</item>
+        <item>Spesial (Tekstur)</item>
+        <item>Spesial (Tekstur - Agresif)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>Akurat (Direkomendasikan)</item>
+        <item>Nonaktifkan Readbacks (Sinkronisasi GS Thread)</item>
+        <item>Tidak Tersinkronisasi (Non-Deterministic)</item>
+        <item>Nonaktifkan (Abaikan Transfer)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>Otomatis</item>
+        <item>Tidak Ada</item>
+        <item>Berbelok (Bidang Atas Lebih Dulu)</item>
+        <item>Berbelok (Bidang Bawah Lebih Dulu)</item>
+        <item>Bertolakan (Bidang Atas Lebih Dulu)</item>
+        <item>Bertolakan (Bidang Bawah Lebih Dulu)</item>
+        <item>Campuran (Bidang Atas Lebih Dulu)</item>
+        <item>Campuran (Bidang Bawah Lebih Dulu)</item>
+        <item>Menyesuaikan (Bidang Atas Lebih Dulu)</item>
+        <item>Menyesuaikan (Bidang Bawah Lebih Dulu)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Otomatis (Bawaan)</item>
+        <item>Mati</item>
+        <item>Dasar (Menghasilkan Mips)</item>
+        <item>Penuh (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Perangkat Lunak</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Mati (Bawaan)</item>
+        <item>Setengah</item>
+        <item>Penuh</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Tidak ada (Debug)</item>
+        <item>1 Thread</item>
+        <item>2 Thread</item>
+        <item>3 Thread</item>
+        <item>4 Thread</item>
+        <item>5 Thread</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>Otomatis</item>
+        <item>Nonaktifkan Paksa</item>
+        <item>Aktifkan Paksa</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Nearest-Neighbor (Titik)</item>
+        <item>Bilinear (Paksa)</item>
+        <item>Bilinear (PS2)</item>
+        <item>Bilinear (Paksa Tanpa Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Tidak Ada</item>
+        <item>Sebagian</item>
+        <item>Penuh (Hash Cache)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>Otomatis (Bawaan)</item>
+        <item>Nonaktifkan (Mati)</item>
+        <item>Aktifkan (PS2)</item>
+        <item>Aktifkan (Paksa)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Tidak ada</item>
+        <item>Filter Scanline</item>
+        <item>Filter Diagonal</item>
+        <item>Filter Triangle</item>
+        <item>Filter Wave</item>
+        <item>Lotte CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x Resolusi</item>
+        <item>0.75x Resolusi</item>
+        <item>1x Resolusi</item>
+        <item>1.25x Resolusi</item>
+        <item>1.5x Resolusi</item>
+        <item>1.75x Resolusi</item>
+        <item>2x Resolusi</item>
+        <item>2.25x Resolusi</item>
+        <item>2.5x Resolusi</item>
+        <item>2.75x Resolusi</item>
+        <item>3x Resolusi</item>
+        <item>3.5x Resolusi</item>
+        <item>4x Resolusi</item>
+        <item>5x Resolusi</item>
+        <item>6x Resolusi</item>
+        <item>7x Resolusi</item>
+        <item>8x Resolusi</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Sinkronisasi Berat)</item>
+        <item>1 Frame</item>
+        <item>2 Frame</item>
+        <item>3 Frame</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Menuju Terdekat</item>
+        <item>Menuju Negatif Tidak Terbatas</item>
+        <item>Menuju Positif Tidak Terbatas</item>
+        <item>Menuju Nol/Chop (Bawaan)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Nonaktif</item>
+        <item>Aktif</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Tidak Ada</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Umum</item>
+        <item>Sistem</item>
+        <item>Grafis</item>
+        <item>Audio</item>
+        <item>Kartu Memori</item>
+        <item>Daftar Permainan</item>
+        <item>BIOS</item>
+        <item>Pencapaian</item>
+        <item>Lanjutan</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Port 1</item>
+        <item>Port 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Tidak ada</item>
+        <item>Tombol Pad Digital</item>
+        <item>Satu Tombol Analog</item>
+        <item>Dua Analog</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Terdekat</item>
+        <item>Linear</item>
+        <item>Cubic</item>
+        <item>Hermite</item>
+        <item>Catmull-Rom</item>
+        <item>Gaussian (Disarankan)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (Disarankan)</item>
+        <item>Async Mix (Merusak FMV/Permainan)</item>
+        <item>Tidak ada</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Ikuti Setelan Sistem</item>
+        <item>Terang</item>
+        <item>Gelap</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Ubah Transparansi</item>
+        <item>Tambah/Hapus Tombol</item>
+        <item>Ubah Posisi Tombol</item>
+        <item>Ubah Ukuran Tombol</item>
+        <item>Atur Ulang Tata Letak</item>
+        <item>Keluar Dari Editor</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Tidak Ada</item>
+        <item>Normal (Bawaan)</item>
+        <item>Ekstra</item>
+        <item>Ekstra + Simpan Tanda</item>
+    </string-array>
+</resources>

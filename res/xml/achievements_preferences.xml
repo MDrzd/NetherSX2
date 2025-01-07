@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_achievements_global_settings">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Enabled"
+            app:summary="@string/settings_summary_achievements_enable"
+            app:title="@string/settings_achievements_enable" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/ChallengeMode"
+            app:summary="@string/settings_summary_achievements_challenge_mode"
+            app:title="@string/settings_achievements_challenge_mode" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Leaderboards"
+            app:summary="@string/settings_summary_achievements_leaderboards"
+            app:title="@string/settings_achievements_leaderboards" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/RichPresence"
+            app:summary="@string/settings_summary_achievements_rich_presence"
+            app:title="@string/settings_achievements_rich_presence" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Notifications"
+            app:summary="@string/settings_summary_achievements_notifications"
+            app:title="@string/settings_achievements_notifications" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/SoundEffects"
+            app:summary="@string/settings_summary_achievements_sound_effects"
+            app:title="@string/settings_achievements_sound_effects" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:dependency="Achievements/Enabled"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/PrimedIndicators"
+            app:summary="@string/settings_summary_challenge_indicators"
+            app:title="@string/settings_achievements_challenge_indicators" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_achievements_category">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Username"
+            app:title="@string/settings_achievements_username" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="Achievements/LoginTokenTime"
+            app:title="@string/settings_achievements_token_generation_time" />
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Login"
+            app:summary="@string/settings_summary_achievements_login"
+            app:title="@string/settings_achievements_login" />
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Register"
+            app:summary="@string/settings_summary_achievements_register"
+            app:title="@string/settings_achievements_register" />
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            app:key="Achievements/Logout"
+            app:summary="@string/settings_summary_achievements_logout"
+            app:title="@string/settings_achievements_logout" />
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            app:key="Achievements/ViewProfile"
+            app:summary="@string/settings_summary_achievements_view_profile"
+            app:title="@string/settings_achievements_view_profile" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_audio_advanced">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/UnofficialTestMode"
+            app:summary="@string/settings_summary_achievements_unofficial_test_mode"
+            app:title="@string/settings_achievements_unofficial_test_mode" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Achievements/TestMode"
+            app:summary="@string/settings_summary_achievements_test_mode"
+            app:title="@string/settings_achievements_test_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_achievements_disclaimer" />
+</PreferenceScreen>

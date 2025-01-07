@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>Touchscreen Veeg naar Links</item>
+        <item>Touchscreen Veeg naar Rechts</item>
+        <item>Touchscreen Veeg naar Boven</item>
+        <item>Touchscreen Veeg naar Beneden</item>
+        <item>Versnellingsmeter Draai Links (X)</item>
+        <item>Versnellingsmeter Draai Rechts (X)</item>
+        <item>Versnellingsmeter Kantel Achteruit (Y)</item>
+        <item>Versnellingsmeter Kantel Vooruit (Y)</item>
+        <item>Versnellingsmeter Draai Links (Z)</item>
+        <item>Versnellingsmeter Draai Rechts (Z)</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Normaal (0)</item>
+        <item>Licht Onderklokken (1)</item>
+        <item>Gematigd Onderklokken (2)</item>
+        <item>Maximaal Onderklokken (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Apparaatinstellingen Gebruiken</item>
+        <item>Portret</item>
+        <item>Landschap</item>
+        <item>Automatisch Draaiien</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Patch Toevoegen</item>
+        <item>Patches Bewerken</item>
+        <item>Patches Wissen</item>
+        <item>Patches Aan/Uit</item>
+        <item>Menu Sluiten</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Uit (Normale Beeldverhouding Gebruiken)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standaard (4:3)</item>
+        <item>Breedbeeld (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Geen</item>
+        <item>Normaal (Standaard)</item>
+        <item>Extra + Behoud Teken</item>
+        <item>Volledig</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Uitgeschakeld (Standaard)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Stretch (Vul hele scherm)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standaard (4:3)</item>
+        <item>Breedbeeld (16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>None (Nearest-Neighbor)</item>
+        <item>Bilinear (Smooth)</item>
+        <item>Bilineair (scherp)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Minimum</item>
+        <item>Basis (Standaard)</item>
+        <item>Gemiddeld</item>
+        <item>Hoog</item>
+        <item>Volledig</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>Uitgeschakeld</item>
+        <item>Alleen scherpen (interne resolutie)</item>
+        <item>Sharpen and Resize (Display Resolution)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>Uitgeschakeld</item>
+        <item>Normaal</item>
+        <item>Agressief</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (uitgeschakeld)</item>
+        <item>1 (64 Max Breedte)</item>
+        <item>2 (128 Max Breedte)</item>
+        <item>3 (192 Max Breedte)</item>
+        <item>4 (256 Max Breedte)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Automatisch (Standaard)</item>
+        <item>Uit</item>
+        <item>Minimum</item>
+        <item>Gedeeltelijk</item>
+        <item>Volledig</item>
+        <item>Agressief</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Uit</item>
+        <item>Geschaald</item>
+        <item>Ongeschaald (Standaard)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Automatisch</item>
+        <item>Geforceerd Uitschakelen</item>
+        <item>Geforceerd Inschakelen</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Uit (Standaard)</item>
+        <item>Normaal (Hoekpunt)</item>
+        <item>Speciaal (Textuur)</item>
+        <item>Speciaal (Textuur - Agressief)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>Nauwkeurig (Aanbevolen)</item>
+        <item>Disable Readbacks (Synchronize GS Thread)</item>
+        <item>Unsynchronized (Non-Deterministic)</item>
+        <item>Uitgeschakeld (Ignore Transfers)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>Automatisch</item>
+        <item>Geen</item>
+        <item>Weave (Top Field First)</item>
+        <item>Weave (Bottom Field First)</item>
+        <item>Bob (Top Field First)</item>
+        <item>Bob (Bottom Field First)</item>
+        <item>Blend (Top Field First)</item>
+        <item>Blend (Bottom Field First)</item>
+        <item>Adaptive (Top Field First)</item>
+        <item>Adaptive (Bottom Field First)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Automatisch (Standaard)</item>
+        <item>Uit</item>
+        <item>Basis (Genereer Mips)</item>
+        <item>Volledig (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Software</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Uit (Standaard)</item>
+        <item>Half</item>
+        <item>Vol</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Geen (Foutopsporing)</item>
+        <item>1 Thread</item>
+        <item>2 Threads</item>
+        <item>3 Threads</item>
+        <item>4 Threads</item>
+        <item>5 Threads</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>Automatisch</item>
+        <item>Geforceerd Uitschakelen</item>
+        <item>Geforceerd Inschakelen</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Dichtstbijzijnde-Buur (Punt)</item>
+        <item>Bilineair (Geforceerd)</item>
+        <item>Bilineair (PS2)</item>
+        <item>Bilineair (Geforceerd Uitgesloten Van Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Geen</item>
+        <item>Gedeeltelijk</item>
+        <item>Full (Hash Cache)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>Automatisch (Standaard)</item>
+        <item>Uitgeschakeld (Uit)</item>
+        <item>Ingeschakeld (PS2)</item>
+        <item>Ingeschakeld (Geforceerd)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Geen</item>
+        <item>Scanlijn Filter</item>
+        <item>Diagonaal Filter</item>
+        <item>Driehoek Filter</item>
+        <item>Golf Filter</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x Origineel</item>
+        <item>0.75x Origineel</item>
+        <item>1x Origineel</item>
+        <item>1.25x Origineel</item>
+        <item>1.5x Origineel</item>
+        <item>1.75x Origineel</item>
+        <item>2x Origineel</item>
+        <item>2.25x Origineel</item>
+        <item>2.5x Origineel</item>
+        <item>2.75x Origineel</item>
+        <item>3x Origineel</item>
+        <item>3.5x Origineel</item>
+        <item>4x Origineel</item>
+        <item>5x Origineel</item>
+        <item>6x Origineel</item>
+        <item>7x Origineel</item>
+        <item>8x Origineel</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Harde Synchronisatie)</item>
+        <item>1 Beeld in wachtrij</item>
+        <item>2 Beelden in wachtrij</item>
+        <item>3 Beelden in wachtrij</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Naar Dichtstbijzijnde</item>
+        <item>Naar Negatieve Oneindigheid</item>
+        <item>Naar Positieve Oneindigheid</item>
+        <item>Naar Zero/Chop (Standaard)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Uitgeschakeld</item>
+        <item>Ingeschakeld</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Geen</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Algemeen</item>
+        <item>Systeem</item>
+        <item>Grafisch</item>
+        <item>Audio</item>
+        <item>Geheugenkaarten</item>
+        <item>Spellenlijst</item>
+        <item>BIOS</item>
+        <item>Prestaties</item>
+        <item>Geavanceerd</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Poort 1</item>
+        <item>Poort 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Geen</item>
+        <item>Digitale Pad</item>
+        <item>Enkele Analoge Pad</item>
+        <item>Dubbele Analoge Pad</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Dichtstbijzijnde</item>
+        <item>Lineair</item>
+        <item>Kubisch</item>
+        <item>Hermiet</item>
+        <item>Catmull-Rom</item>
+        <item>Gaussisch (Aanbevolen)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>Tijdsuitrekking (aanbevolen)</item>
+        <item>Async Mix (Breekt FMVs/Games)</item>
+        <item>Geen</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Volg systeemsinstelling</item>
+        <item>Licht</item>
+        <item>Donker</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Veranderen Doorzichtigheid</item>
+        <item>Knoppen Toevoegen/Verwijderen</item>
+        <item>Knoppen Verplaatsen</item>
+        <item>Knopgrootte Aanpassen</item>
+        <item>Lay-out Resetten</item>
+        <item>Tekstverwerker Afsluiten</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Geen</item>
+        <item>Normaal (Standaard)</item>
+        <item>Extra</item>
+        <item>Extra + Behoud Teken</item>
+    </string-array>
+</resources>

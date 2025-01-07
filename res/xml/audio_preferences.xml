@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_audio_controls">
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:defaultValue="100"
+            app:format="%d%%"
+            app:iconSpaceReserved="false"
+            app:key="SPU2/Mixing/FinalVolume"
+            app:maxValue="100"
+            app:minValue="0"
+            app:summary="@string/settings_summary_output_volume"
+            app:title="@string/settings_output_volume" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_audio_advanced">
+        <ListPreference
+            app:defaultValue="5"
+            app:entries="@array/spu_interpolation_entries"
+            app:entryValues="@array/spu_interpolation_values"
+            app:iconSpaceReserved="false"
+            app:key="SPU2/Mixing/Interpolation"
+            app:title="@string/settings_interpolation_mode"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/spu_sync_mode_entries"
+            app:entryValues="@array/spu_sync_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="SPU2/Output/SynchMode"
+            app:title="@string/settings_synchronization_mode"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:defaultValue="100"
+            app:format="%d ms"
+            app:iconSpaceReserved="false"
+            app:key="SPU2/Output/Latency"
+            app:maxValue="1000"
+            app:minValue="10"
+            app:summary="@string/settings_summary_audio_latency"
+            app:title="@string/settings_audio_latency" />
+    </PreferenceCategory>
+</PreferenceScreen>

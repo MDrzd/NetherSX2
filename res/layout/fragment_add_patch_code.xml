@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="280.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="?textAppearanceSubtitle2"
+                android:id="@id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="4.0dip"
+                android:text="@string/add_patch_code_help_text"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip" />
+            <EditText
+                android:id="@id/code_name"
+                android:nextFocusDown="@id/code_body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_patch_code_code_name"
+                android:singleLine="true"
+                android:inputType="textAutoCorrect|textCapSentences"
+                android:imeOptions="actionNext"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip" />
+            <EditText
+                android:gravity="center|left|top"
+                android:id="@id/code_body"
+                android:layout_width="fill_parent"
+                android:layout_height="120.0dip"
+                android:hint="@string/add_patch_code_code_body"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:imeOptions="actionDone"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/buttonPanel"
+            android:padding="5.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="?android:dividerHorizontal"
+            android:minHeight="48.0dip"
+            android:showDividers="beginning"
+            android:dividerPadding="0.0dip">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="locale"
+                style="?android:buttonBarStyle">
+                <com.google.android.material.button.MaterialButton
+                    android:textSize="14.0sp"
+                    android:layout_gravity="end"
+                    android:id="@id/import_from_file"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48.0dip"
+                    android:text="@string/add_patch_code_import_from_file"
+                    android:maxLines="2"
+                    style="@style/Widget.MaterialComponents.Button.TextButton" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <com.google.android.material.button.MaterialButton
+                    android:textSize="14.0sp"
+                    android:layout_gravity="end"
+                    android:id="@id/cancel"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48.0dip"
+                    android:text="@string/dialog_cancel"
+                    android:maxLines="2"
+                    style="@style/Widget.MaterialComponents.Button.TextButton" />
+                <com.google.android.material.button.MaterialButton
+                    android:textSize="14.0sp"
+                    android:layout_gravity="end"
+                    android:id="@id/add"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48.0dip"
+                    android:text="@string/add_patch_code_add"
+                    android:maxLines="2"
+                    style="@style/Widget.MaterialComponents.Button.TextButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

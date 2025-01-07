@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/settings_reset_defaults"
+        android:title="@string/settings_reset_to_safe_defaults" />
+    <item
+        android:id="@id/settings_reset_unsafe_defaults"
+        android:title="@string/settings_reset_to_fast_defaults" />
+    <item
+        android:id="@id/settings_run_setup_wizard"
+        android:title="@string/settings_run_setup_wizard" />
+</menu>

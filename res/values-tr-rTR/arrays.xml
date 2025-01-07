@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>Dokunmatik Ekranı Sola Kaydırın</item>
+        <item>Dokunmatik Ekranı Sağa Kaydırın</item>
+        <item>Dokunmatik Ekranı Yukarı Kaydırın</item>
+        <item>Dokunmatik Ekranı Aşağı Kaydırın</item>
+        <item>İvmeölçer Sola Dönüş (X)</item>
+        <item>İvmeölçer Sağa Dönüş (X)</item>
+        <item>İvmeölçer Geriye Eğme (Y)</item>
+        <item>İvmeölçer Öne Eğme (Y)</item>
+        <item>İvmeölçer Sola Döndür (Z)</item>
+        <item>İvmeölçer Sağa Döndür (Z)</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Normal (0)</item>
+        <item>Hafif Hız Azaltma \"Underclock\" (1)</item>
+        <item>Orta Hız Azaltma \"Underclock\" (2)</item>
+        <item>Maksimum Hız Azaltma \"Underclock\" (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Cihaz Ayarını Kullan</item>
+        <item>Dikey</item>
+        <item>Yatay</item>
+        <item>Sensör Tabanlı</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Yama Ekle</item>
+        <item>Yamaları Düzenle</item>
+        <item>Yamaları Temizle</item>
+        <item>Yamaları Aç/Kapat</item>
+        <item>Menüyü Kapat</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Kapalı (En-boy oranını koru)</item>
+        <item>Otomatik Standart (4:3/3:2 Progresif)</item>
+        <item>Standart (4:3)</item>
+        <item>Geniş ekran (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Hiçbiri</item>
+        <item>Normal (Varsayılan)</item>
+        <item>Ekstra + İşareti Koru</item>
+        <item>Tam</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Devre Dışı (Varsayılan)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Uzat (Ekranı Doldur)</item>
+        <item>Otomatik Standart (4:3/3:2 Progresif)</item>
+        <item>Standart (4:3)</item>
+        <item>Geniş ekran (16:9)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>En Düşük</item>
+        <item>Basit (Varsayılan)</item>
+        <item>Orta</item>
+        <item>Yüksek</item>
+        <item>Tam</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (Devre dışı)</item>
+        <item>1 (64 Maks Genişlik)</item>
+        <item>2 (128 Maks Genişlik)</item>
+        <item>3 (192 Maks Genişlik)</item>
+        <item>4 (256 Maks Genişlik)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Otomatik (Varsayılan)</item>
+        <item>Kapalı</item>
+        <item>En Düşük</item>
+        <item>Kısmen</item>
+        <item>Tam</item>
+        <item>Agresif</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Kapalı</item>
+        <item>Ölçeklendirilmiş</item>
+        <item>Ölçeklendirilmemiş (Varsayılan)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Otomatik</item>
+        <item>Devre dışı bırakmaya zorla</item>
+        <item>Etkinleştirmeye zorla</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Kapalı (Varsayılan)</item>
+        <item>Normal (Vertex)</item>
+        <item>Özel (Doku)</item>
+        <item>Özel (Doku - Agresif)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>Doğru (Önerilen)</item>
+        <item>Geri Okumaları Devre Dışı Bırak (GS İş Parçasını Senkronize Et)</item>
+        <item>Senkronize edilmemiş (Deterministik Olmayan)</item>
+        <item>Devre Dışı (Aktarımları Yoksay)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Otomatik (Varsayılan)</item>
+        <item>Kapalı</item>
+        <item>Basit (Mips Oluştur)</item>
+        <item>Tam (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Yazılımsal</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Kapalı (Varsayılan)</item>
+        <item>Yarım</item>
+        <item>Tam</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Hiçbiri (Hata ayıklama)</item>
+        <item>1 İş Parçacığı</item>
+        <item>2 İş Parçacığı</item>
+        <item>3 İş Parçacığı</item>
+        <item>4 İş Parçacığı</item>
+        <item>5 İş Parçacığı</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>Otomatik</item>
+        <item>Devre dışı bırakmaya zorla</item>
+        <item>Etkinleştirmeye zorla</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>En Yakın</item>
+        <item>İki Yönlü (Zorla)</item>
+        <item>İki Yönlü (PS2)</item>
+        <item>İki Yönlü (Sprite Hariç Zorla)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Hiçbiri</item>
+        <item>Kısmen</item>
+        <item>Tam (Karma Önbellek)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Hiçbiri</item>
+        <item>Tarama Çizgisi Filtresi</item>
+        <item>Diyagonal Filtre</item>
+        <item>Üçgen Filtre</item>
+        <item>Dalgalı Filtre</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Zorlu Senkronize)</item>
+        <item>1 Kare</item>
+        <item>2 Kareler</item>
+        <item>3 Kareler</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>En Yakına Doğru</item>
+        <item>Negatif Sonsuza Doğru</item>
+        <item>Pozitif Sonsuza Doğru</item>
+        <item>Sıfıra Doğru/Kes (Varsayılan)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Devre Dışı</item>
+        <item>Etkin</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Hiçbiri</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Genel</item>
+        <item>Sistem</item>
+        <item>Grafikler</item>
+        <item>Ses</item>
+        <item>Hafıza Kartları</item>
+        <item>Oyun Listesi</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Bağlantı Noktası 1</item>
+        <item>Bağlantı Noktası 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Hiçbiri</item>
+        <item>Dijital Ped</item>
+        <item>Tek Analog Ped</item>
+        <item>Çift Analog Ped</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>En Yakın</item>
+        <item>Doğrusal</item>
+        <item>Kübik</item>
+        <item>Hermite</item>
+        <item>Catmull-Rom</item>
+        <item>Gauss (Önerilir)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>ZamanUzatması (Önerilir)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>Hiçbiri</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Sistemi Takip Et</item>
+        <item>Aydınlık</item>
+        <item>Karanlık</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Opaklığı Değiştir</item>
+        <item>Ekle/Kaldır Düğmeleri</item>
+        <item>Düğmeleri Hareket Ettir</item>
+        <item>Düğmeleri Yeniden Boyutlandır</item>
+        <item>Düzeni Sıfırla</item>
+        <item>Editörden Çık</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Hiçbiri</item>
+        <item>Normal (Varsayılan)</item>
+        <item>Ekstra</item>
+        <item>Ekstra + İşareti Koru</item>
+    </string-array>
+</resources>

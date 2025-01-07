@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>بردنی دوگمەی شاشە بۆ لای چەپ</item>
+        <item>بردنی دوگمەی شاشە بۆ لای ڕاست</item>
+        <item>بردنی دوگمەی شاشە بۆ لای سەرەوە</item>
+        <item>بردنی دوگمەی شاشە بۆ لای خوارەوە</item>
+        <item>خێرایی پێوەر بە چەپ بگەرێ (X)</item>
+        <item>خێرایی پێوەر بەلای ڕاستدا بگەڕێ (X)</item>
+        <item>خێرایی پێوەر مەیل بۆ دواوە (Y)</item>
+        <item>خێرایی پێوەر مەیل بۆ پێشەوە (Y)</item>
+        <item>خێرایی پێوەر بە چەپ بسووڕێنەوە (Z)</item>
+        <item>خێرایی پێوەر بەلای ڕاستدا بسووڕێنەوە (Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>خودکار</item>
+        <item>چەپ/سەرەوە</item>
+        <item>ناوەند</item>
+        <item>ڕاست/خوارەوە</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>ئاسایی (0)</item>
+        <item>شکاندنی خێرایی نەرم (1)</item>
+        <item>شکاندنی خێرایی مامناوەندی (2)</item>
+        <item>شکاندنی خێرایی ئەوپەڕیی (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>بەکارهێنانی رێکخستنەکانی ئامێر</item>
+        <item>ستوونی</item>
+        <item>ئاسۆیی</item>
+        <item>لەسەر بنەمای هەستەوەر</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>زیادکردنی فەن</item>
+        <item>دەستکاریکردنی فەنەکان</item>
+        <item>سڕینەوەی فەنەکان</item>
+        <item>جێگیرکردنی فەنەکان</item>
+        <item>داخستنی لیست</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>کوژاندنەوەی (بەکارهێنانی ڕووکاری ڕێژە ئاسایی)</item>
+        <item>پێوانەیی خودکار (4:3/3:2 پێشکەوتوو)</item>
+        <item>پێوانەیی (4:3)</item>
+        <item>شاشە فراوان (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>هیچ</item>
+        <item>ئاسایی (نموونەیی)</item>
+        <item>زیادە + نیشانەی پاراستن</item>
+        <item>تەواو</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>ناچالاک (بنەڕەت)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>کشان پڕ بە شاشە (فوول شاشە)</item>
+        <item>پێوانەیی خودکار (4:3/3:2 پێشکەوتوو)</item>
+        <item>پێوانەیی (4:3)</item>
+        <item>شاشە فراوان (16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>هیچ (نزیکترین-دراوسێ)</item>
+        <item>دووهێڵی (لووس)</item>
+        <item>دووهێڵی (تیژ)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>نزمترین</item>
+        <item>سەرەتایی (بنەڕەت)</item>
+        <item>ناوەند</item>
+        <item>بەرز</item>
+        <item>تەواو</item>
+        <item>ئەوپەڕی</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>لەکارخراوە</item>
+        <item>تەنها تیژکردن (وردی نیشاندانی ناوخۆیی)</item>
+        <item>تیژکردنەوە و گۆڕینی قەبارە (ڕوونی پیشاندانی)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>لەکارخراوە</item>
+        <item>ئاسایی</item>
+        <item>تووندوتیژ</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (لەکارکەوتوو)</item>
+        <item>1 (64 زۆرترین پانایی)</item>
+        <item>2 (128 زۆرترین پانایی)</item>
+        <item>3 (192 زۆرترین پانایی)</item>
+        <item>4 (256 زۆرترین پانایی)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>خودکار (بنەڕەت)</item>
+        <item>کوژاندنەوە</item>
+        <item>نزمترین</item>
+        <item>نیوەتەواو</item>
+        <item>تەواو</item>
+        <item>بەھەڵمەت</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>کوژاندنەوە</item>
+        <item>پێوەر</item>
+        <item>بێ پێوەر (بنەڕەت)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>خودکار</item>
+        <item>هێز لە کارخراوە</item>
+        <item>هێز چالاککراوە</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>وەستاندن (نموونەیی)</item>
+        <item>نۆڕماڵ (Vertex)</item>
+        <item>تایبەت (Texture)</item>
+        <item>تایبەتی (Texture - Aggressive)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>ورد (پێشنیارکراوە)</item>
+        <item>لەکارخستنی Readbacks (هاوکاتکردنی دەزووی GS)</item>
+        <item>ناهاوکات (نا-دیاریکراو)</item>
+        <item>لەکارخراوە (پشتگوێخستنی گواستنەوەکان)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>خودکار</item>
+        <item>هیچ</item>
+        <item>بونیادنان (سەرەتا مەیدانی سەرەوە)</item>
+        <item>بونیادنان (سەرەتا مەیدانی خوارەوە)</item>
+        <item>هەژێندراو (یەکەم کایەی سەرەوە)</item>
+        <item>هەژێندراو (یەکەم کایەی خوارەوە)</item>
+        <item>تێکەڵکردن (یەکەم کایەی سەرەوە)</item>
+        <item>تێکەڵکردن (یەکەم کایەی خوارەوە)</item>
+        <item>بونیادنان (سەرەتا مەیدانی سەرەوە)</item>
+        <item>بونیادنان (سەرەتا مەیدانی خوارەوە)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>خودکار (بنەڕەت)</item>
+        <item>کوژاندنەوە</item>
+        <item>سەرەتایی (دروستکردنی mips)</item>
+        <item>تەواو (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Software</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>وەستاندن (نموونەیی)</item>
+        <item>نیوە</item>
+        <item>تەواو</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>هیچ (ڕاستکردنەوە)</item>
+        <item>1 دەزوو</item>
+        <item>2 دەزوو</item>
+        <item>3 دەزوو</item>
+        <item>4 دەزوو</item>
+        <item>5 دەزوو</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>خودکار</item>
+        <item>بەزۆر لەکارخراوە</item>
+        <item>بەزۆر چالاک کراوە</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>نزیکترین-دراوسێ (خاڵ)</item>
+        <item>دوانەهێڵی (بەزۆر)</item>
+        <item>دوانەهێڵی (وەک PS2)</item>
+        <item>دوانەهێڵی (بەزۆر بەدەرکردنی Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>هیچ</item>
+        <item>بەشێک</item>
+        <item>تەواو (بیرگەی حەشارگەکردنی کاتی)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>خودکار (بنەڕەت)</item>
+        <item>لەکارخستن (کوژاندنەوە)</item>
+        <item>چالاک کردن (PS2)</item>
+        <item>چالاک کردن (بەزۆر)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>هیچ</item>
+        <item>فلتەری Scanline</item>
+        <item>فلتەری Diagonal</item>
+        <item>فلتەری Triangle</item>
+        <item>فلتەری Wave</item>
+        <item>لۆتێس CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x کوالێتی گرافیک</item>
+        <item>0.75x کوالێتی گرافیک</item>
+        <item>1x کوالێتی گرافیک</item>
+        <item>1.25x کوالێتی گرافیک</item>
+        <item>1.5x کوالێتی گرافیک</item>
+        <item>1.75x کوالێتی گرافیک</item>
+        <item>2x کوالێتی گرافیک</item>
+        <item>2.25x کوالێتی گرافیک</item>
+        <item>2.5x کوالێتی گرافیک</item>
+        <item>2.75x کوالێتی گرافیک</item>
+        <item>3x کوالێتی گرافیک</item>
+        <item>3.5x کوالێتی گرافیک</item>
+        <item>4x کوالێتی گرافیک</item>
+        <item>5x کوالێتی گرافیک</item>
+        <item>6x کوالێتی گرافیک</item>
+        <item>7x کوالێتی گرافیک</item>
+        <item>8x کوالێتی گرافیک</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (هاودەمکردنی سەخت)</item>
+        <item>1 چوارچێوە</item>
+        <item>2 چوارچێوە</item>
+        <item>3 چوارچێوە</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>بەرەو نزیکترین</item>
+        <item>بەرەو بێکۆتایی نەرێنی</item>
+        <item>بەرەو بێکۆتایی ئەرێنی</item>
+        <item>بەرەو Zero/Chop (نموونەیی)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>لەکارخراوە</item>
+        <item>چالاککراوە</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>هیچ</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>گشتی</item>
+        <item>سیستەم</item>
+        <item>گرافیک</item>
+        <item>دەنگ</item>
+        <item>میمۆری کارت</item>
+        <item>لیستی یاری</item>
+        <item>BIOS</item>
+        <item>دەستکەوتەکان</item>
+        <item>پێشکەوتوو</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>دەروازە 1</item>
+        <item>دەروازە 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>هیچ</item>
+        <item>کۆنتڕۆڵی دوگمەیی بێ گێڕ</item>
+        <item>کۆنترۆڵی تاک گێڕی</item>
+        <item>کۆنتڕۆڵی جووت گێڕ</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>نزیکترین</item>
+        <item>بەھێڵ</item>
+        <item>شەشپاڵویی</item>
+        <item>Hermite</item>
+        <item>Catmull-Rom</item>
+        <item>گاوسیان (پێشنیارکراو)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>درێژکردنەوەی کات (پێشنیارکراو)</item>
+        <item>Async Mix (تێکدەشکێنێ FMVs/یاریەکان)</item>
+        <item>هیچ</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>بەپێی سیستەم</item>
+        <item>ڕووناک</item>
+        <item>تاریک</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>گۆڕینی ڕوونی دوگمە</item>
+        <item>زیادکردن/لابدردنی دوگمەکان</item>
+        <item>جوڵاندنی دوگمە</item>
+        <item>گۆڕینی قەبارەی دوگمەکان</item>
+        <item>دوبارە ڕێکخستنەوەی نەخشە</item>
+        <item>دەرچوون لە دەستکاریکردن</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>هیچ</item>
+        <item>ئاسایی (نموونەیی)</item>
+        <item>زیادە</item>
+        <item>زیادە + نیشانەی پاراستن</item>
+    </string-array>
+</resources>

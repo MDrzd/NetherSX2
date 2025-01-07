@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Settings">
+        <Preference
+            app:icon="@android:drawable/ic_input_add"
+            app:key="__CREATE_NEW_MEMORY_CARD__"
+            app:summary="@string/memory_card_summary_create_new_card"
+            app:title="@string/memory_card_create_new_card" />
+        <Preference
+            app:icon="@android:drawable/ic_menu_upload"
+            app:key="__IMPORT_MEMORY_CARD__"
+            app:summary="@string/memory_card_summary_import"
+            app:title="@string/memory_card_import" />
+        <Preference
+            app:icon="@drawable/ic_baseline_swap_horiz_24"
+            app:key="__SWAP_MEMORY_CARDS__"
+            app:summary="@string/memory_card_summary_swap_cards"
+            app:title="@string/memory_card_swap_cards" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@android:drawable/ic_menu_search"
+            app:key="EmuCore/McdFolderAutoManage"
+            app:summary="@string/memory_card_manage_folder_memory_cards_summary"
+            app:title="@string/memory_card_manage_folder_memory_cards" />
+    </PreferenceCategory>
+</PreferenceScreen>

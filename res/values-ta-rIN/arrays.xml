@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>சாதாரண (0)</item>
+        <item>லேசான அண்டர் க்ளாக் (1)</item>
+        <item>மிதமான அண்டர் க்ளாக் (2)</item>
+        <item>அதிகபட்ச அண்டர் க்ளாக் (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>சாதன அமைப்புகள்</item>
+        <item>நிலைபதிப்பு</item>
+        <item>நீளவாக்கில்</item>
+        <item>சென்சார் அடிப்படையிலானது</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>பேட்ச் சேர்க்கவும்</item>
+        <item>இணைப்புகளைத் திருத்தவும்</item>
+        <item>தெளிவான இணைப்புகள்</item>
+        <item>இணைப்புகளை மாற்றவும்</item>
+        <item>மெனு மூடப்பட்டது</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>ஆஃப் (சாதாரண விகிதத்தைப் பயன்படுத்தவும்)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standard (4:3)</item>
+        <item>Widescreen (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>எதுவுமில்லை</item>
+        <item>இயல்பான (இயல்புநிலை)</item>
+        <item>கூடுதல் + பாதுகாப்பு அடையாளம்</item>
+        <item>முழு</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>முடக்கப்பட்டது (இயல்புநிலை)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>குறைந்தபட்ச</item>
+        <item>அடிப்படை (இயல்புநிலை)</item>
+        <item>நடுத்தர</item>
+        <item>உயர்</item>
+        <item>முழு</item>
+        <item>அல்ட்ரா</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>தானியங்கி (இயல்புநிலை)</item>
+        <item>Off</item>
+        <item>குறைந்தபட்ச</item>
+        <item>பகுதி</item>
+        <item>முழு</item>
+        <item>முரட்டுத்தனமான</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Off</item>
+        <item>அளவிடப்பட்டது</item>
+        <item>அளவிடப்படாத (இயல்புநிலை)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>தானியங்கும்</item>
+        <item>படை முடக்கு</item>
+        <item>படை இயக்கு</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>ஆஃப் (இயல்புநிலை)</item>
+        <item>இயல்பான (வெர்டெக்ஸ்)</item>
+        <item>சிறப்பு (அமைப்பு)</item>
+        <item>சிறப்பு (அமைப்பு - ஆக்கிரமிப்பு)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>தானியங்கி (இயல்புநிலை)</item>
+        <item>Off</item>
+        <item>அடிப்படை (உருவாக்கும் Mips)</item>
+        <item>முழு (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Software</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>ஆஃப் (இயல்புநிலை)</item>
+        <item>பாதி</item>
+        <item>முழு</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>எதுவும் இல்லை (Debug)</item>
+        <item>1 Thread</item>
+        <item>2 Threads</item>
+        <item>3 Threads</item>
+        <item>4 Threads</item>
+        <item>5 Threads</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Nearest-Neighbor (Point)</item>
+        <item>Bilinear (Forced)</item>
+        <item>Bilinear (PS2)</item>
+        <item>Bilinear (Forced Excluding Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>எதுவுமில்ல</item>
+        <item>பகுதி</item>
+        <item>முழு (ஹாஷ் கேச்)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>எதுவுமில்லை</item>
+        <item>ஸ்கேன்லைன் வடிகட்டி</item>
+        <item>மூலைவிட்ட வடிகட்டி</item>
+        <item>முக்கோண வடிகட்டி</item>
+        <item>அலை வடிகட்டி</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (கடின ஒத்திசைவு)</item>
+        <item>1 Frame</item>
+        <item>2 Frames</item>
+        <item>3 Frames</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>அருகிலுள்ள நோக்கி</item>
+        <item>எதிர்மறை முடிவிலியை நோக்கி</item>
+        <item>நேர்மறை முடிவிலியை நோக்கி</item>
+        <item>பூஜ்ஜியத்தை நோக்கி/நறுக்குதல் (இயல்புநிலை)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>முடக்கப்பட்டது</item>
+        <item>இயக்கப்பட்டது</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>எதுவுமில்லை</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>பொது</item>
+        <item>அமைப்பு</item>
+        <item>கிராஃபிக்ஸ்</item>
+        <item>ஆடியோக்கள்</item>
+        <item>நினைவக அட்டைகள்</item>
+        <item>விளையாட்டு பட்டியல்</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Port 1</item>
+        <item>Port 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>எதுவுமில்லை</item>
+        <item>டிஜிட்டல் பேட்</item>
+        <item>ஒற்றை அனலாக் பேட்</item>
+        <item>இரட்டை அனலாக் பேட்</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>கிட்டத்தட்ட</item>
+        <item>நேரியல்</item>
+        <item>கன சதுரம்</item>
+        <item>துறவி</item>
+        <item>கேட்முல்-ரோம்</item>
+        <item>காஸியன் (பரிந்துரைக்கப்பட்டது)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (பரிந்துரைக்கப்படுகிறது)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>எதுவுமில்லை</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>கணினியைப் பின்தொடரவும்</item>
+        <item>விளக்குகள்</item>
+        <item>அடர்நிறம்</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>ஒளிபுகாநிலையை மாற்றவும்</item>
+        <item>பொத்தான்கை சேர்க்கவும்/அகற்றவும்</item>
+        <item>பொத்தான்களை நகர்த்தவும்</item>
+        <item>பொத்தான்களின் அளவை மாற்றவும்</item>
+        <item>தளவமைப்பை மீட்டமைக்கவும்</item>
+        <item>எக்ஸிட் எடிட்டர்</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>எதுவுமில்லை</item>
+        <item>இயல்பான (இயல்புநிலை)</item>
+        <item>உதிரிகள்</item>
+        <item>கூடுதல் + பாதுகாப்பு அடையாளம்</item>
+    </string-array>
+</resources>

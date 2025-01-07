@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>Тачскрин свайп влево</item>
+        <item>Тачскрин свайп вправо</item>
+        <item>Тачскрин свайп вверх</item>
+        <item>Тачскрин свайп вниз</item>
+        <item>Акселерометр поворот влево (X)</item>
+        <item>Акселерометр поворот вправо (X)</item>
+        <item>Акселерометр наклон назад (Y)</item>
+        <item>Акселерометр наклон вперёд (Y)</item>
+        <item>Акселерометр вращение влево (Z)</item>
+        <item>Акселерометр вращение вправо (Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>Автоматически</item>
+        <item>Слева/вверху</item>
+        <item>По центру</item>
+        <item>Справа/внизу</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Нормально (0)</item>
+        <item>Незначительное замедление (1)</item>
+        <item>Умеренное замедление (2)</item>
+        <item>Максимальное замедление (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>По выбору системы</item>
+        <item>Портретная</item>
+        <item>Ландшафтная</item>
+        <item>По датчику положения</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Добавить патч</item>
+        <item>Редактор патчей</item>
+        <item>Удалить патчи</item>
+        <item>Вкл./выкл. патчи</item>
+        <item>Закрыть меню</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Откл. (использовать исходный формат)</item>
+        <item>Авт. стандартное (прогрессивное 4:3/3:2)</item>
+        <item>Стандартное (4:3)</item>
+        <item>Широкоэкранное (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Нет</item>
+        <item>Обычный (по умолчанию)</item>
+        <item>Доп. + Сохранять знак</item>
+        <item>Полный</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Отключено (по умолчанию)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Растягивать (на весь экран)</item>
+        <item>Авт. стандартное (прогрессивное 4:3/3:2)</item>
+        <item>Стандартное (4:3)</item>
+        <item>Широкоэкранное (16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>Нет (ближайший сосед)</item>
+        <item>Билинейный (сглаженный)</item>
+        <item>Билинейный (резкий)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Минимальная</item>
+        <item>Базовая (по умолчанию)</item>
+        <item>Средняя</item>
+        <item>Высокая</item>
+        <item>Полная</item>
+        <item>Ультра</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>Отключено</item>
+        <item>Только повышать резкость (внутреннее разрешение)</item>
+        <item>Повышать резкость и увеличивать (разрешение экрана)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>Отключено</item>
+        <item>Нормально</item>
+        <item>Агрессивно</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (отключено)</item>
+        <item>1 (макс. ширина 64)</item>
+        <item>2 (макс. ширина 128)</item>
+        <item>3 (макс. ширина 192)</item>
+        <item>4 (макс. ширина 256)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Автоматически (по умолчанию)</item>
+        <item>Откл.</item>
+        <item>Минимум</item>
+        <item>Частично</item>
+        <item>Полный</item>
+        <item>Агрессивно</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Откл.</item>
+        <item>С масштабированием</item>
+        <item>Без масштабирования (по умолчанию)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Автоматически</item>
+        <item>Принудительно отключено</item>
+        <item>Принудительно включено</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Отключено (по умолчанию)</item>
+        <item>Обычное (вершины)</item>
+        <item>Специальное (текстуры)</item>
+        <item>Специальное (текстуры - агрессивно)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>Точный (рекомендовано)</item>
+        <item>Откл. обратные считывания (синх. поток GS)</item>
+        <item>Без синхронизации (недетерминированный)</item>
+        <item>Отключено (игнорировать переносы)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>Автоматически</item>
+        <item>Нет</item>
+        <item>Weave (с верхнего поля)</item>
+        <item>Weave (с нижнего поля)</item>
+        <item>Bob (с верхнего поля)</item>
+        <item>Bob (с нижнего поля)</item>
+        <item>Смешивать (с верхнего поля)</item>
+        <item>Смешивание (с нижнего поля)</item>
+        <item>Адаптивный (с верхнего поля)</item>
+        <item>Адаптивный (с нижнего поля)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Автоматически (по умолчанию)</item>
+        <item>Отключено</item>
+        <item>Базовое (генерация Mips)</item>
+        <item>Полное (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Программный</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Отключено (по умолчанию)</item>
+        <item>До половины</item>
+        <item>До целого</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Нет (отладка)</item>
+        <item>1 поток</item>
+        <item>2 потока</item>
+        <item>3 потока</item>
+        <item>4 потока</item>
+        <item>5 потоков</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>Автоматически</item>
+        <item>Принудительно откл.</item>
+        <item>Принудительно вкл.</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Методом ближайшего соседа (точечная)</item>
+        <item>Билинейная (принудительно)</item>
+        <item>Билинейная (PS2)</item>
+        <item>Билинейная (принудительно, исключая спрайты)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Нет</item>
+        <item>Частичная</item>
+        <item>Полная (хешировать кэш)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>Автоматически (по умолчанию)</item>
+        <item>Отключено</item>
+        <item>Включено (PS2)</item>
+        <item>Включено (принудительно)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Нет</item>
+        <item>Чересстрочный фильтр</item>
+        <item>Диагональный фильтр</item>
+        <item>Треугольный фильтр</item>
+        <item>Волновой фильтр</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x нативное</item>
+        <item>0.75x нативное</item>
+        <item>1x нативное</item>
+        <item>1.25x нативное</item>
+        <item>1.5x нативное</item>
+        <item>1.75x нативное</item>
+        <item>2x нативное</item>
+        <item>2.25x нативное</item>
+        <item>2.5x нативное</item>
+        <item>2.75x нативное</item>
+        <item>3x нативное</item>
+        <item>3.5x нативное</item>
+        <item>4x нативное</item>
+        <item>5x нативное</item>
+        <item>6x нативное</item>
+        <item>7x нативное</item>
+        <item>8x нативное</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (жёсткая привязка)</item>
+        <item>1 кадр</item>
+        <item>2 кадра</item>
+        <item>3 кадра</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>К ближайшему</item>
+        <item>К минус бесконечности</item>
+        <item>К плюс бесконечности</item>
+        <item>К нулю/обрезать (по умолчанию)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Отключено</item>
+        <item>Включено</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Нет</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Общие</item>
+        <item>Система</item>
+        <item>Графика</item>
+        <item>Звук</item>
+        <item>Карты памяти</item>
+        <item>Список игр</item>
+        <item>BIOS</item>
+        <item>Достижения</item>
+        <item>Расширенные</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Порт 1</item>
+        <item>Порт 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Нет</item>
+        <item>Цифровой геймпад</item>
+        <item>Аналоговый, один стик</item>
+        <item>Аналоговый, два стика</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Ближайший сосед</item>
+        <item>Линейный</item>
+        <item>Кубический</item>
+        <item>Эрмита</item>
+        <item>Катмулла-Рома</item>
+        <item>Гаусса (рекомендовано)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>Растяжение по времени (рекомендовано)</item>
+        <item>Асинхронное микширование (ломает заставки/игры)</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Системная настройка</item>
+        <item>Светлая</item>
+        <item>Тёмная</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Настроить видимость</item>
+        <item>Добавить/убрать кнопки</item>
+        <item>Положение кнопок</item>
+        <item>Размер кнопок</item>
+        <item>Сбросить макет</item>
+        <item>Закрыть редактор</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Нет</item>
+        <item>Обычный (по умолчанию)</item>
+        <item>Дополнительный</item>
+        <item>Доп. + Сохранять знак</item>
+    </string-array>
+</resources>

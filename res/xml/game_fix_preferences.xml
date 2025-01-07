@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/FpuNegDivHack"
+        app:title="@string/settings_fpu_neg_div_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/FpuMulHack"
+        app:title="@string/settings_fpu_mul_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/SoftwareRendererFMVHack"
+        app:title="@string/settings_software_renderer_fmvs"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/BlitInternalFPSHack"
+        app:title="@string/settings_blit_internal_fps_detection"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/SkipMPEGHack"
+        app:title="@string/settings_skip_mpeg"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/EETimingHack"
+        app:title="@string/settings_ee_timing_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/OPHFlagHack"
+        app:title="@string/settings_oph_flag_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/GIFFIFOHack"
+        app:title="@string/settings_gif_fifo_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/DMABusyHack"
+        app:title="@string/settings_dma_busy_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/VIF1StallHack"
+        app:title="@string/settings_delay_vif1_stalls"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/VIFFIFOHack"
+        app:title="@string/settings_emulate_vif_fifo"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/IbitHack"
+        app:title="@string/settings_ibit_hack"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/FullVU0SyncHack"
+        app:title="@string/settings_full_vu0_sync"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/VuAddSubHack"
+        app:title="@string/settings_vu_add_sub_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/VUOverflowHack"
+        app:title="@string/settings_vu_overflow_fix"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/VUKickstartHack"
+        app:title="@string/settings_vu_kickstart"
+        app:useSimpleSummaryProvider="true" />
+    <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="EmuCore/Gamefixes/XgKickHack"
+        app:title="@string/settings_xgkick_hack"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

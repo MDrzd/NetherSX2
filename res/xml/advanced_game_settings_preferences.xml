@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_game_settings_system">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableEE"
+            app:summary="@string/settings_summary_enable_ee_recompiler"
+            app:title="@string/settings_enable_ee_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableVU0"
+            app:summary="@string/settings_summary_enable_vu_recompiler"
+            app:title="@string/settings_enable_vu0_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableVU1"
+            app:summary="@string/settings_summary_enable_vu_recompiler"
+            app:title="@string/settings_enable_vu1_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableIOP"
+            app:summary="@string/settings_summary_enable_iop"
+            app:title="@string/settings_enable_iop_recompiler"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/fpuCorrectAddSub"
+            app:summary="@string/settings_summary_ee_fpu_correct_add_sub"
+            app:title="@string/settings_ee_fpu_correct_add_sub"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/vuFlagHack"
+            app:title="@string/settings_mvu_flag_optimization"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/WaitLoop"
+            app:title="@string/settings_idle_loop"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/Speedhacks/IntcStat"
+            app:title="@string/settings_intc_spin_detection"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/EnableFastmem"
+            app:summary="@string/settings_summary_enable_fastmem"
+            app:title="@string/settings_enable_fastmem"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/HostFs"
+            app:summary="@string/settings_summary_enable_hostfs"
+            app:title="@string/settings_enable_hostfs"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/round_mode_entries"
+            app:entryValues="@array/round_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/FPU.Roundmode"
+            app:title="@string/settings_ee_fpu_round_mode"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/fpu_clamp_mode_entries"
+            app:entryValues="@array/fpu_clamp_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/FPUClampMode"
+            app:title="@string/settings_ee_fpu_clamp_mode"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/round_mode_entries"
+            app:entryValues="@array/round_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/VU0.Roundmode"
+            app:title="@string/settings_vu0_round_mode"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/vu_clamp_mode_entries"
+            app:entryValues="@array/vu_clamp_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/VU0ClampMode"
+            app:title="@string/settings_vu0_clamp_mode"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/round_mode_entries"
+            app:entryValues="@array/round_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/VU1.Roundmode"
+            app:title="@string/settings_vu1_round_mode"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/vu_clamp_mode_entries"
+            app:entryValues="@array/vu_clamp_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/CPU/Recompiler/VU1ClampMode"
+            app:title="@string/settings_vu1_clamp_mode"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_advanced_graphics_rendering">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/paltex"
+            app:summary="@string/settings_summary_gpu_palette_conversion"
+            app:title="@string/settings_gpu_palette_conversion"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/autoflush_sw"
+            app:title="@string/settings_auto_flush_software"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/mipmap"
+            app:title="@string/settings_mipmapping_software"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/HWSpinGPUForReadbacks"
+            app:title="@string/settings_spin_gpu_for_readbacks"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/HWSpinCPUForReadbacks"
+            app:title="@string/settings_spin_cpu_for_readbacks"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_dithering_entries"
+            app:entryValues="@array/gs_dithering_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/dithering_ps2"
+            app:title="@string/settings_dithering"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_interlace_entries"
+            app:entryValues="@array/gs_interlace_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/deinterlace_mode"
+            app:title="@string/settings_interlacing"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_crc_hack_entries"
+            app:entryValues="@array/gs_crc_hack_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/CRCHackLevel"
+            app:title="@string/settings_crc_hack_level"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_vsync_queue_size_entries"
+            app:entryValues="@array/gs_vsync_queue_size_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/VsyncQueueSize"
+            app:title="@string/settings_vsync_queue_size"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_sw_extra_threads_entries"
+            app:entryValues="@array/gs_sw_extra_threads_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/extrathreads"
+            app:title="@string/settings_software_rendering_threads"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_upscaling_hacks">
+        <xyz.aethersx2.android.NullOrEnabledSwitchPreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks"
+            app:title="@string/settings_upscaling_hacks"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_align_sprite_X"
+            app:title="@string/settings_align_sprite"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_merge_pp_sprite"
+            app:title="@string/settings_merge_sprite"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/wrap_gs_mem"
+            app:title="@string/settings_memory_wrapping"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/preload_frame_with_gs_data"
+            app:title="@string/settings_preload_frame_data"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_CPU_FB_Conversion"
+            app:title="@string/settings_frame_buffer_conversion"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_DisablePartialInvalidation"
+            app:title="@string/settings_fast_texture_invalidation"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_PartialTargetInvalidation"
+            app:title="@string/settings_partial_target_invalidation"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_DisableDepthSupport"
+            app:title="@string/settings_disable_depth_emulation"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_Disable_Safe_Features"
+            app:title="@string/settings_disable_safe_features"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_AutoFlush"
+            app:title="@string/settings_auto_flush_hardware"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_WildHack"
+            app:title="@string/settings_wild_arms_hack"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_CPUFBConversion"
+            app:title="@string/settings_cpu_fb_conversion"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_ReadTCOnClose"
+            app:title="@string/settings_read_tc_on_close"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_EstimateTextureRegion"
+            app:title="@string/settings_estimate_texture_region"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:entries="@array/gs_half_bottom_override_entries"
+            app:entryValues="@array/gs_half_bottom_override_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_Half_Bottom_Override"
+            app:title="@string/settings_half_bottom_override"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:entries="@array/gs_half_pixel_offset_entries"
+            app:entryValues="@array/gs_half_pixel_offset_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_HalfPixelOffset"
+            app:title="@string/settings_half_pixel_offset"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:entries="@array/gs_round_sprite_entries"
+            app:entryValues="@array/gs_round_sprite_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_round_sprite_offset"
+            app:title="@string/settings_round_sprite_offset"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:entries="@array/gs_cpu_sprite_render_bw_entries"
+            app:entryValues="@array/gs_cpu_sprite_render_bw_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_CPUSpriteRenderBW"
+            app:title="@string/settings_gs_cpu_sprite_render_block_width"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:entries="@array/gs_cpu_clut_render_entries"
+            app:entryValues="@array/gs_cpu_clut_render_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_CPUCLUTRender"
+            app:title="@string/settings_gs_cpu_cpu_clut_render"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:entries="@array/gs_gpu_target_clut_entries"
+            app:entryValues="@array/gs_gpu_target_clut_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_GPUTargetCLUTMode"
+            app:title="@string/settings_gs_gpu_target_clut"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:entries="@array/gs_texture_in_rt_entries"
+            app:entryValues="@array/gs_texture_in_rt_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_TextureInsideRt"
+            app:title="@string/settings_texture_inside_rt"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:format="%d"
+            app:iconSpaceReserved="false"
+            app:interval="1"
+            app:key="EmuCore/GS/UserHacks_SkipDraw_Start"
+            app:maxValue="10000"
+            app:minValue="0"
+            app:nullable="true"
+            app:title="@string/settings_skip_draw_start" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:format="%d"
+            app:iconSpaceReserved="false"
+            app:interval="1"
+            app:key="EmuCore/GS/UserHacks_SkipDraw_End"
+            app:maxValue="10000"
+            app:minValue="0"
+            app:nullable="true"
+            app:title="@string/settings_skip_draw_end" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:format="%d"
+            app:iconSpaceReserved="false"
+            app:interval="10"
+            app:key="EmuCore/GS/UserHacks_TCOffsetX"
+            app:maxValue="1000"
+            app:minValue="0"
+            app:nullable="true"
+            app:title="@string/settings_tc_offset_x" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:dependency="EmuCore/GS/UserHacks"
+            app:format="%d"
+            app:iconSpaceReserved="false"
+            app:interval="10"
+            app:key="EmuCore/GS/UserHacks_TCOffsetY"
+            app:maxValue="1000"
+            app:minValue="0"
+            app:nullable="true"
+            app:title="@string/settings_tc_offset_y" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_advanced_graphics_display">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/IntegerScaling"
+            app:summary="@string/settings_summary_integer_scaling"
+            app:title="@string/settings_integer_scaling"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/pcrtc_offsets"
+            app:summary="@string/settings_summary_pcrtc_offsets"
+            app:title="@string/settings_pcrtc_offsets"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/pcrtc_overscan"
+            app:summary="@string/settings_summary_show_overscan"
+            app:title="@string/settings_show_overscan"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/pcrtc_antiblur"
+            app:summary="@string/settings_summary_anti_blue"
+            app:title="@string/settings_anti_blur"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/disable_interlace_offset"
+            app:summary="@string/settings_summary_disable_interlace_offset"
+            app:title="@string/settings_disable_interlace_offset"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/SkipDuplicateFrames"
+            app:summary="@string/settings_summary_skip_presenting_duplicate_frames"
+            app:title="@string/settings_skip_presenting_duplicate_frames"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/SyncToHostRefreshRate"
+            app:summary="@string/settings_summary_gs_sync_to_host_refresh"
+            app:title="@string/settings_gs_sync_to_host_refresh"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DisableThreadedPresentation"
+            app:summary="@string/settings_summary_threaded_presentation"
+            app:title="@string/settings_disable_threaded_presentation"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_debugging">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DisableFramebufferFetch"
+            app:summary="@string/settings_summary_disable_framebuffer_fetch"
+            app:title="@string/settings_disable_framebuffer_fetch"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DisableDualSourceBlend"
+            app:summary="@string/settings_summary_disable_dual_source_blend"
+            app:title="@string/settings_disable_dual_source_blend"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_texture_barriers_entries"
+            app:entryValues="@array/gs_texture_barriers_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OverrideTextureBarriers"
+            app:title="@string/settings_override_texture_barriers"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_half_bottom_override_entries"
+            app:entryValues="@array/gs_half_bottom_override_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/OverrideGeometryShaders"
+            app:title="@string/settings_override_geometry_shaders"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>Tachskrin Swayp sa Kaliwa</item>
+        <item>Tachskrin Swayp sa Kanan</item>
+        <item>Tachskrin Swayp sa Taas</item>
+        <item>Tachskrin Swayp sa Baba</item>
+        <item>Akseleromiter Pakaliwa (X)</item>
+        <item>Akseleromiter Pakanan (X)</item>
+        <item>Akseleromiter Pabaliktad (Y)</item>
+        <item>Akseleromiter Pasulong (Y)</item>
+        <item>Akseleromiter Ikot Pakaliwa (Z)</item>
+        <item>Akseleromiter Ikot Pakanan (Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>Otomatiko</item>
+        <item>Kaliwa/Taas</item>
+        <item>Gitna</item>
+        <item>Kanan/Baba</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Normal (0)</item>
+        <item>Mahinang Anderklak (1)</item>
+        <item>Katamtamang Anderklak (2)</item>
+        <item>Malakas na Anderklak (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Gamitin ang device setting</item>
+        <item>Patayo</item>
+        <item>Pahiga</item>
+        <item>Nakabase sa sensor</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Magdagdag ng Patch</item>
+        <item>I-edit ang mga Patch</item>
+        <item>I-clear ang mga Patch</item>
+        <item>I-toggle ang mga Patch</item>
+        <item>Isara ang Menu</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Nakapatay(Gamitin ang normal na aspect ratio)</item>
+        <item>Otomatikong Pamantayan (4:3/3:2 Progresibo)</item>
+        <item>Pamantayan (4:3)</item>
+        <item>Malapad na Skrin (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Wala</item>
+        <item>Normal (Dipult)</item>
+        <item>Ekstra + Ipreserb ang Sign</item>
+        <item>Puno</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Huwag Paganahin (Dipult)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Banat (Punan ang Skrin)</item>
+        <item>Otomatikong Pamantayan (4:3/3:2 Progresibo)</item>
+        <item>Pamantayan (4:3)</item>
+        <item>Malapan na Skrin (16:9)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Pinakamahina</item>
+        <item>Beysik (Dipult)</item>
+        <item>Katamtaman</item>
+        <item>Mataas</item>
+        <item>Puno</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (Diseybol)</item>
+        <item>1 (64 Maks Width)</item>
+        <item>2 (128 Maks Width)</item>
+        <item>3 (192 Maks Width)</item>
+        <item>4 (256 Maks Width)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Otomatiko (Dipult)</item>
+        <item>Nakapatay</item>
+        <item>Pinakakakaunti</item>
+        <item>Bahagya</item>
+        <item>Buo</item>
+        <item>Agresibo</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Nakapatay</item>
+        <item>Skeyld</item>
+        <item>Anskeyld (Dipult)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Otomatiko</item>
+        <item>Pwersahang Idiseybol</item>
+        <item>Pwersahang Ineybol</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Nakapatay (Dipult)</item>
+        <item>Normal (Berteks)</item>
+        <item>Espesyal (Kayarian)</item>
+        <item>Espesyal (Kayarian - Agresibo)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>Wasto (Rekomenda)</item>
+        <item>Diseybol Ridbaks (Sinkronays GS Tred)</item>
+        <item>Ansinkronised (Nan-Diterministik)</item>
+        <item>Diseybol (Iwasan ang Transper)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Atomatiko (Dipult)</item>
+        <item>Nakapatay</item>
+        <item>Beysic (Jenereyt Mips)</item>
+        <item>Puno (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Softweyr</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Nakapatay (Dipult)</item>
+        <item>Kalahati</item>
+        <item>Puno</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Wala (Debug)</item>
+        <item>Isang Tred</item>
+        <item>Dalawang Tred</item>
+        <item>Tatlong Tred</item>
+        <item>Apat na Tred</item>
+        <item>Limang Tred</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>Otomatiko</item>
+        <item>Pwersahang Idiseybol</item>
+        <item>Pwersahang Ineybol</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Nirest-Neybor (Punto)</item>
+        <item>Baylinir (Pwersa)</item>
+        <item>Baylinir (PS2)</item>
+        <item>Baylinir(Pwersa Maliban sa Isprayt)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Wala</item>
+        <item>Bahagya</item>
+        <item>Naka-bukas (Hash Cache)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>Otomatiko (Dipult)</item>
+        <item>Huwag Paganahin (Nakapatay)</item>
+        <item>Nakabukas (PS2)</item>
+        <item>Nakabukas (Pwersa)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Wala</item>
+        <item>Skanlayn Piltro</item>
+        <item>Dayagonal na Piltro</item>
+        <item>Trianggulo na Piltro</item>
+        <item>Weyb na Piltro</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x Neytib</item>
+        <item>0.75x Neytib</item>
+        <item>1x Neytib</item>
+        <item>1.25x Neytib</item>
+        <item>1.5x Neytib</item>
+        <item>1.75x Neytib</item>
+        <item>2x Neytib</item>
+        <item>2.25x Neytib</item>
+        <item>2.5x Neytib</item>
+        <item>2.75x Neytib</item>
+        <item>3x Neytib</item>
+        <item>3.5x Neytib</item>
+        <item>4x Neytib</item>
+        <item>5x Neytib</item>
+        <item>6x Neytib</item>
+        <item>7x Neytib</item>
+        <item>8x Neytib</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Matindi na Sync)</item>
+        <item>Isang Preym</item>
+        <item>Dalawang Preym</item>
+        <item>Tatlong Preym</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Patungo sa Pinakamalapit</item>
+        <item>Patungo sa Negitibong Infiniti</item>
+        <item>Patungo sa Positibong Infiniti</item>
+        <item>Patungong Sero/Chap (Dipult)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Nakapatay</item>
+        <item>Nakabukas</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Wala</item>
+        <item>DuwalSyak 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Pangkalahatan</item>
+        <item>Sistema</item>
+        <item>Grapiks</item>
+        <item>Tunog</item>
+        <item>Memori Kards</item>
+        <item>Listahan ng Laro</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Port 1</item>
+        <item>Port 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Wala</item>
+        <item>Digital na Pad</item>
+        <item>Isang Analog na Pad</item>
+        <item>Dalawang Analog na Pad</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Pinakamalapit</item>
+        <item>Liniyer</item>
+        <item>Cubik</item>
+        <item>Hermayt</item>
+        <item>Katmul-Rom</item>
+        <item>Gaussian (I-rerekomenda)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (I-rerekomenda)</item>
+        <item>Asink Miks (Pagkasira ng FMVs/Laro)</item>
+        <item>Wala</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Sumunod sa sistema</item>
+        <item>Liwanag</item>
+        <item>Dilim</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Baguhin ang Opacity</item>
+        <item>Magdagdag/Magbawas ng mga Buttons</item>
+        <item>I-lipat ang mga Pindutan</item>
+        <item>Palakihin/Paliliitin ang mga Pindutan</item>
+        <item>I-balik sa dati ang Layout</item>
+        <item>Umalis sa Editor</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Wala</item>
+        <item>Normal (Dipult)</item>
+        <item>Ekstra</item>
+        <item>Ekstra + Ipreserb ang Sign</item>
+    </string-array>
+</resources>

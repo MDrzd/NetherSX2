@@ -1,0 +1,50 @@
+{
+  "apkFileName": "NetherSX2_vv1.5-4248(15210)_src.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "png",
+    "lib/arm64-v8a/libemucore.so",
+    "assets/cheats_ni.zip",
+    "assets/cheats_ws.zip",
+    "assets/dexopt/baseline.prof",
+    "assets/dexopt/baseline.profm",
+    "wav"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-241225",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "v1.5-4248",
+    "versionCode": "15210"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {
+    "play-services-basement.properties": "8",
+    "play-services-base.properties": "8",
+    "DebugProbesKt.bin": "8",
+    "play-services-ads-lite.properties": "8",
+    "play-services-ads-identifier.properties": "8",
+    "play-services-appset.properties": "8",
+    "play-services-measurement-base.properties": "8",
+    "play-services-ads.properties": "8",
+    "play-services-ads-base.properties": "8",
+    "play-services-tasks.properties": "8",
+    "user-messaging-platform.properties": "8",
+    "play-services-measurement-sdk-api.properties": "8"
+  },
+  "apkFilePath": "/data/app/~~5O4O5TPVZKpmctF-gXoWxQ==/xyz.aethersx2.android-1FrCJNA8_DkN3WyottkrBA==/base.apk",
+  "compactEntries": false,
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "26",
+    "targetSdkVersion": "32"
+  }
+}

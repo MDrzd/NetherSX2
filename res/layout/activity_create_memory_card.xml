@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip">
+        <EditText
+            android:id="@id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/memory_card_create_name"
+            android:layout_weight="1.0" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/memory_card_create_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip">
+        <RadioButton
+            android:textAppearance="?textAppearanceSubtitle2"
+            android:id="@id/mcFile8MB"
+            android:layout_width="fill_parent"
+            android:layout_height="22.0dip"
+            android:text="8 MB" />
+        <TextView
+            android:textAppearance="?textAppearanceCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/memory_card_create_standard_summary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip">
+        <RadioButton
+            android:textAppearance="?textAppearanceSubtitle2"
+            android:id="@id/mcFile16MB"
+            android:layout_width="fill_parent"
+            android:layout_height="22.0dip"
+            android:text="16 MB" />
+        <TextView
+            android:textAppearance="?textAppearanceCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/memory_card_create_third_party_summary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip">
+        <RadioButton
+            android:textAppearance="?textAppearanceSubtitle2"
+            android:id="@id/mcFile32MB"
+            android:layout_width="fill_parent"
+            android:layout_height="22.0dip"
+            android:text="32 MB" />
+        <TextView
+            android:textAppearance="?textAppearanceCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/memory_card_create_third_party_summary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip">
+        <RadioButton
+            android:textAppearance="?textAppearanceSubtitle2"
+            android:id="@id/mcFile64MB"
+            android:layout_width="fill_parent"
+            android:layout_height="22.0dip"
+            android:text="64 MB" />
+        <TextView
+            android:textAppearance="?textAppearanceCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/memory_card_create_large_summary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip">
+        <RadioButton
+            android:textAppearance="?textAppearanceSubtitle2"
+            android:id="@id/mcFolder"
+            android:layout_width="fill_parent"
+            android:layout_height="22.0dip"
+            android:text="@string/memory_card_type_description_folder" />
+        <TextView
+            android:textAppearance="?textAppearanceCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/memory_card_create_folder_summary" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/touchscreen_category_profiles">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Pad/UseGameSettingsForController"
+            app:persistent="false"
+            app:summary="Uses game specific settings for controller and touchscreen configuration for this game."
+            app:title="Per-Game Configuration" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="Pad/CopyGlobalSettings"
+            app:summary="Copies the global controller configuration (including touchscreen) to this game."
+            app:title="Copy Global Settings" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="Pad/ResetToDefaults"
+            app:summary="Resets all configuration to defaults (including touchscreen and bindings)."
+            app:title="Reset Settings" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="Pad/LoadInputProfile"
+            app:summary="@string/load_input_profile_summary"
+            app:title="@string/load_input_profile" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="Pad/SaveInputProfile"
+            app:summary="@string/save_input_profile_summary"
+            app:title="@string/save_input_profile" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/touchscreen_category_settings">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Pad/MultitapPort1"
+            app:summary="@string/settings_summary_multitap"
+            app:title="@string/settings_multitap_port_1" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="Pad/MultitapPort2"
+            app:summary="@string/settings_summary_multitap"
+            app:title="@string/settings_multitap_port_2" />
+    </PreferenceCategory>
+</PreferenceScreen>

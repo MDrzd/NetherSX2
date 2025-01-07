@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="display_alignment_entries">
+        <item>Automatické</item>
+        <item>Vľavo/hore</item>
+        <item>Stred</item>
+        <item>Vpravo/dolu</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Normálne (0)</item>
+        <item>Mierne Podtaktovanie (1)</item>
+        <item>Stredné Podtaktovanie (2)</item>
+        <item>Maximálne Podtaktovanie (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Použiť Nastavenie Zariadenia</item>
+        <item>Na výšku</item>
+        <item>Na šírku</item>
+        <item>Použiť Senzor</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Pridať Zaplátu</item>
+        <item>Zmeniť Zapláty</item>
+        <item>Vymazať Zapláty</item>
+        <item>Aktivovať Zapláty</item>
+        <item>Zatvoriť Menu</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Vypnúť (použiť normálny pomer strán)</item>
+        <item>Automatický štandard (4:3/3:2 progresívne)</item>
+        <item>Štandard (4:3)</item>
+        <item>Široká obrazovka (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Žiadne</item>
+        <item>Normálne (Predvolené)</item>
+        <item>Extra + Zachovať Označenie</item>
+        <item>Celé</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Zakázané (predvolené)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Roztiahnuť (vyplniť obrazovku)</item>
+        <item>Automatický štandard (4:3/3:2 progresívne)</item>
+        <item>Štandard (4:3)</item>
+        <item>Široká obrazovka (16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>None (Nearest-Neighbor)</item>
+        <item>Bilineárne (jemné)</item>
+        <item>Bilineárne (ostré)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Minimálne</item>
+        <item>Základné (predvolené)</item>
+        <item>Stredné</item>
+        <item>Vysoké</item>
+        <item>Celé</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>Zakázané</item>
+        <item>Sharpen Only (Internal Resolution)</item>
+        <item>Sharpen and Resize (Display Resolution)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>Zakázané</item>
+        <item>Normálne</item>
+        <item>Agresívne</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (Zakázané)</item>
+        <item>1 (maximálna šírka 64)</item>
+        <item>2 (maximálna šírka 128)</item>
+        <item>3 (maximálna šírka 192)</item>
+        <item>4 (maximálna šírka 256)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Automaticky (predvolené)</item>
+        <item>Vypnúť</item>
+        <item>Minimálne</item>
+        <item>Čiastočné</item>
+        <item>Plné</item>
+        <item>Agresívne</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Vypnúť</item>
+        <item>Škálované</item>
+        <item>Neškálované (predvolené)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Automatický</item>
+        <item>Vynútene Zakázať</item>
+        <item>Vynútene Povoliť</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Vypnuté (Predvolené)</item>
+        <item>Normálne (Vertex)</item>
+        <item>Špeciálne (Textúra)</item>
+        <item>Špeciálne (Textúra - Agresívne)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>Automaticky</item>
+        <item>Žiadne</item>
+        <item>Weave (Top Field First)</item>
+        <item>Weave (Bottom Field First)</item>
+        <item>Bob (Top Field First)</item>
+        <item>Bob (Bottom Field First)</item>
+        <item>Blend (Top Field First)</item>
+        <item>Blend (Bottom Field First)</item>
+        <item>Adaptive (Top Field First)</item>
+        <item>Adaptive (Bottom Field First)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Automaticky (predvolené)</item>
+        <item>Vypnuté</item>
+        <item>Basic (Generate Mips)</item>
+        <item>Plné (PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Softvér</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Vypnuté (Predvolené)</item>
+        <item>Polovica</item>
+        <item>Celé</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Žiadne (ladenie)</item>
+        <item>1 vlákno</item>
+        <item>2 vlákna</item>
+        <item>3 vlákna</item>
+        <item>4 vlákna</item>
+        <item>5 vlákien</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>Automaticky</item>
+        <item>Force Disabled</item>
+        <item>Force Enabled</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Nearest-Neighbor (Point)</item>
+        <item>Bilineárne (vynútené)</item>
+        <item>Bilineárne (PS2)</item>
+        <item>Bilinear (Forced Excluding Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Žiadne</item>
+        <item>Čiastočné</item>
+        <item>Full (Hash Cache)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>Automaticky (predvolené)</item>
+        <item>Zakázané (vypnuté)</item>
+        <item>Povolené (PS2)</item>
+        <item>Povolené (vynútené)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Žiadne</item>
+        <item>Skenovací Filter</item>
+        <item>Diagonálni Filter</item>
+        <item>Trojuholníkový Filter</item>
+        <item>Vlnový Filter</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0,5x natívne</item>
+        <item>0,75x natívne</item>
+        <item>1x natívne</item>
+        <item>1,25x natívne</item>
+        <item>1,5x natívne</item>
+        <item>1,75x natívne</item>
+        <item>2x natívne</item>
+        <item>2,25x natívne</item>
+        <item>2,5x natívne</item>
+        <item>2,75x natívne</item>
+        <item>3x natívne</item>
+        <item>3,5x natívne</item>
+        <item>4x natívne</item>
+        <item>5x natívne</item>
+        <item>6x natívne</item>
+        <item>7x natívne</item>
+        <item>8x natívne</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (Silná Synchronizácia)</item>
+        <item>1 Snímok</item>
+        <item>2 Snímky</item>
+        <item>3 Snímky</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Smerom Najbližšie</item>
+        <item>Smerom Negatívne Infinity</item>
+        <item>Smerom Pozitívne Infinity</item>
+        <item>Smerom Nula/Chop (Predvolené)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Vypnuté</item>
+        <item>Povolené</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Žiadne</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Všeobecné</item>
+        <item>Systém</item>
+        <item>Grafika</item>
+        <item>Zvuk</item>
+        <item>Pamäťové karty</item>
+        <item>Zoznam hier</item>
+        <item>BIOS</item>
+        <item>Úspechy</item>
+        <item>Pokročilé</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Port 1</item>
+        <item>Port 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Žiadne</item>
+        <item>Digitálny Pad</item>
+        <item>Jeden Analóg Pad</item>
+        <item>Duálny Analóg Pad</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Najbližší</item>
+        <item>Lineárne</item>
+        <item>Kubický</item>
+        <item>Hermite</item>
+        <item>Catmull-Rom</item>
+        <item>Gaussian (Odporúčané)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (Odporúčané)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>Žiadne</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Prispôsobiť sa systému</item>
+        <item>Svetlý</item>
+        <item>Tmavý</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Zmeniť Viditeľnosť</item>
+        <item>Pridať/Odobrať Tlačítka</item>
+        <item>Presunúť Tlačítka</item>
+        <item>Zmeniť Veľkosť Tlačítok</item>
+        <item>Resetovať Rozloženie</item>
+        <item>Vypnúť Editor</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Žiadne</item>
+        <item>Normálne (Predvolené)</item>
+        <item>Extra</item>
+        <item>Extra + Zachovať Označenie</item>
+    </string-array>
+</resources>

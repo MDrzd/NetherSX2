@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>터치스크린 왼쪽으로 스와이프</item>
+        <item>터치스크린 오른쪽으로 스와이프</item>
+        <item>터치스크린 위로 스와이프</item>
+        <item>터치스크린 아래로 스와이프</item>
+        <item>가속도계 좌회전(X)</item>
+        <item>가속도계 우회전(X)</item>
+        <item>가속도계 뒤로 기울이기(Y)</item>
+        <item>가속도계 틸트 포워드(Y)</item>
+        <item>가속도계 왼쪽으로 회전(Z)</item>
+        <item>가속도계 오른쪽으로 회전(Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>자동적 인</item>
+        <item>왼쪽/상단</item>
+        <item>센터</item>
+        <item>오른쪽/아래</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>정상(0)</item>
+        <item>마일드 언더클럭(1)</item>
+        <item>적당한 언더클럭(2)</item>
+        <item>최대 언더클럭(3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>기기 설정 사용</item>
+        <item>초상화</item>
+        <item>풍경</item>
+        <item>센서 기반</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>패치 추가</item>
+        <item>패치 편집</item>
+        <item>패치 지우기</item>
+        <item>토글 패치</item>
+        <item>메뉴 닫기</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>끄기(일반 화면비 사용)</item>
+        <item>자동 표준(4:3/3:2 프로그레시브)</item>
+        <item>표준(4:3)</item>
+        <item>와이드스크린(16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>아무것도 아님</item>
+        <item>일반(기본값)</item>
+        <item>최대 + 보존 기호</item>
+        <item>가득한</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>비활성화됨(기본값)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>늘이기(화면 채우기)</item>
+        <item>자동 표준(4:3/3:2 프로그레시브)</item>
+        <item>표준(4:3)</item>
+        <item>와이드스크린(16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>없음(가장 가까운 이웃)</item>
+        <item>이중선형(부드럽게)</item>
+        <item>쌍선형(샤프)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>최저한의</item>
+        <item>기본(기본값)</item>
+        <item>중간</item>
+        <item>높은</item>
+        <item>모두</item>
+        <item>극단론자</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>사용 안 함</item>
+        <item>선명하게만(내부 해상도)</item>
+        <item>선명하게 및 크기 조정(디스플레이 해상도)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>장애가 있는</item>
+        <item>일반</item>
+        <item>적극적인</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (장애가 있는)</item>
+        <item>1 (64 최대 너비)</item>
+        <item>2 (128 최대 너비)</item>
+        <item>3 (192 최대 너비)</item>
+        <item>4 (256 최대 너비)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>자동(기본값)</item>
+        <item>꺼짐</item>
+        <item>최저한의</item>
+        <item>부분</item>
+        <item>모두</item>
+        <item>적극적인</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>꺼짐</item>
+        <item>스케일링</item>
+        <item>비축소(기본값)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>자동적 인</item>
+        <item>강제 비활성화</item>
+        <item>강제 활성화</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>끄기(기본값)</item>
+        <item>법선(정점)</item>
+        <item>특수(텍스처)</item>
+        <item>특수(텍스처 - 공격적)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>정확한(권장)</item>
+        <item>리드백 비활성화(GS 스레드 동기화)</item>
+        <item>동기화되지 않음(비결정적)</item>
+        <item>비활성화됨(전송 무시)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>자동적 인</item>
+        <item>아무것도 아님</item>
+        <item>직조(상단 필드 우선)</item>
+        <item>직조(하단 필드 우선)</item>
+        <item>Bob (상위 필드 우선)</item>
+        <item>Bob (하단 필드 우선)</item>
+        <item>혼합(상단 필드 우선)</item>
+        <item>혼합(하단 필드 우선)</item>
+        <item>적응형(상단 필드 우선)</item>
+        <item>적응형(바텀 필드 우선)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>자동(기본값)</item>
+        <item>꺼짐</item>
+        <item>기본(Mips 생성)</item>
+        <item>전체(PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>소프트웨어</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>끄기(기본값)</item>
+        <item>반</item>
+        <item>모두</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>없음(디버그)</item>
+        <item>1 스레드</item>
+        <item>2 스레드</item>
+        <item>3 스레드</item>
+        <item>4 스레드</item>
+        <item>5 스레드</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>자동적 인</item>
+        <item>강제 비활성화</item>
+        <item>강제 활성화</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>가장가까운 이웃(포인트)</item>
+        <item>쌍선형(강제)</item>
+        <item>쌍선형(PS2)</item>
+        <item>쌍선형(스프라이트를 제외한 강제)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>아무것도 아님</item>
+        <item>부분</item>
+        <item>전체(해시 캐시)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>자동(기본값)</item>
+        <item>비활성화됨(끄기)</item>
+        <item>활성화됨(PS2)</item>
+        <item>활성화됨(강제)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>아무것도 아님</item>
+        <item>스캔라인 필터</item>
+        <item>대각선 필터</item>
+        <item>삼각형 필터</item>
+        <item>웨이브 필터</item>
+        <item>CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1x토종의</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>1.75x</item>
+        <item>2x</item>
+        <item>2.25x</item>
+        <item>2.5x</item>
+        <item>2.75x</item>
+        <item>3x</item>
+        <item>3.5x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>6x</item>
+        <item>7x</item>
+        <item>8x</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (하드 동기화)</item>
+        <item>1프레임</item>
+        <item>2프레임</item>
+        <item>3프레임</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>가장 가까운 쪽으로</item>
+        <item>음의 무한대를 향하여</item>
+        <item>긍정적인 무한대를 향하여</item>
+        <item>제로/촙 방향(기본값)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>사용 안 함</item>
+        <item>활성화됨</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>아무것도 아님</item>
+        <item>듀얼쇼크 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>일반</item>
+        <item>시스템</item>
+        <item>그래픽</item>
+        <item>오디오</item>
+        <item>메모리 카드</item>
+        <item>게임 목록</item>
+        <item>바이오스</item>
+        <item>업적</item>
+        <item>고급</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>포트 1</item>
+        <item>포트 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>아무것도 아님</item>
+        <item>디지털 패드</item>
+        <item>단일 아날로그 패드</item>
+        <item>듀얼 아날로그 패드</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>가장 가까운</item>
+        <item>선의</item>
+        <item>큐빅</item>
+        <item>은둔자</item>
+        <item>캣멀-Rom</item>
+        <item>가우스(권장)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch(권장)</item>
+        <item>비동기 믹스(FMV/게임 중단)</item>
+        <item>아무것도 아님</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>시스템을 따름</item>
+        <item>빛</item>
+        <item>어두운</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>불투명도 변경</item>
+        <item>버튼 추가/제거</item>
+        <item>이동 버튼</item>
+        <item>크기 조정 버튼</item>
+        <item>레이아웃 재설정</item>
+        <item>편집기 종료</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>아무것도 아님</item>
+        <item>일반(기본값)</item>
+        <item>최대</item>
+        <item>최대 + 보존 기호</item>
+    </string-array>
+</resources>

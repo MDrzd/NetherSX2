@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@id/game_list_filter">
+        <item
+            android:icon="@drawable/ic_media_cdrom"
+            android:id="@id/game_list_filter_all"
+            android:title="@string/main_navigation_all_games"
+            android:checkable="true" />
+        <item
+            android:icon="@drawable/ic_media_cdrom"
+            android:id="@id/game_list_filter_disc"
+            android:title="@string/main_navigation_discs"
+            android:checkable="true" />
+        <item
+            android:icon="@drawable/ic_baseline_playlist_play_24"
+            android:id="@id/game_list_filter_playlist"
+            android:title="@string/main_navigation_playlists"
+            android:checkable="true" />
+        <item
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:id="@id/game_list_filter_executable"
+            android:title="@string/main_navigation_executables"
+            android:checkable="true" />
+    </group>
+    <group
+        android:id="@id/start_menu">
+        <item
+            android:icon="@drawable/ic_media_cdrom"
+            android:id="@id/action_start_file"
+            android:title="@string/menu_main_start_file" />
+        <item
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:id="@id/action_start_bios"
+            android:title="@string/menu_main_start_bios" />
+    </group>
+    <group
+        android:id="@id/settings">
+        <item
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:id="@id/action_settings"
+            android:title="@string/action_settings" />
+        <item
+            android:icon="@drawable/ic_baseline_gamepad_24"
+            android:id="@id/action_controller_settings"
+            android:title="@string/action_controller_mapping" />
+        <item
+            android:icon="@drawable/ic_baseline_layers_clear_24"
+            android:id="@id/action_reset_settings"
+            android:title="@string/main_navigation_reset_settings" />
+        <item
+            android:icon="@drawable/ic_baseline_import_export_24"
+            android:id="@id/action_transfer_data"
+            android:title="@string/main_navigation_transfer_data" />
+    </group>
+    <group
+        android:id="@id/game_list">
+        <item
+            android:icon="@drawable/ic_baseline_autorenew_24"
+            android:id="@id/action_scan_for_new_games"
+            android:title="@string/menu_main_scan_for_new_games" />
+        <item
+            android:icon="@drawable/ic_baseline_refresh_24"
+            android:id="@id/action_rescan_all_games"
+            android:title="@string/menu_main_rescan_all_games" />
+        <item
+            android:icon="@drawable/ic_controller_quick_save_button"
+            android:id="@id/action_save_state_cleanup"
+            android:title="@string/menu_main_save_state_manager" />
+        <item
+            android:icon="@drawable/ic_baseline_image_24"
+            android:id="@id/action_download_covers"
+            android:title="@string/main_navigation_download_covers" />
+        <item
+            android:icon="@drawable/ic_baseline_wallpaper_24"
+            android:id="@id/action_change_background"
+            android:title="@string/action_change_background" />
+    </group>
+    <group
+        android:id="@id/support">
+        <item
+            android:icon="@drawable/ic_baseline_help_outline_24"
+            android:id="@id/action_show_faq"
+            android:title="@string/main_navigation_show_faq" />
+        <item
+            android:icon="@drawable/ic_baseline_query_builder_24"
+            android:id="@id/action_show_version"
+            android:title="@string/menu_main_show_version" />
+        <item
+            android:icon="@drawable/ic_baseline_import_export_24"
+            android:id="@id/action_third_party_notices"
+            android:title="@string/main_navigation_third_party_notices" />
+    </group>
+</menu>

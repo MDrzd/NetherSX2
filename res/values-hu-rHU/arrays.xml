@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>Normál (0)</item>
+        <item>Enyhe (1)</item>
+        <item>Mérsékelt (2)</item>
+        <item>Maximális (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>Rendszerbeállítás követése</item>
+        <item>Álló</item>
+        <item>Fekvő</item>
+        <item>Szenzor követése</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>Patch hozzáadása</item>
+        <item>Patchek szerkesztése</item>
+        <item>Patchek törlése</item>
+        <item>Patchek ki/bekapcsolása</item>
+        <item>Menü bezárása</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>Ki (alapértelmezett képarány használata)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standard (4:3)</item>
+        <item>Szélesvásznú (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>Semmilyen</item>
+        <item>Normál (alapértelmezett)</item>
+        <item>Extra + előjel megtartása</item>
+        <item>Teljes</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>Kikapcsolva (alapértelmezett)</item>
+        <item>x2</item>
+        <item>x4</item>
+        <item>x8</item>
+        <item>x16</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>Nyújtás (Képernyő Kitöltése)</item>
+        <item>Auto Standard (4:3/3:2 Progressive)</item>
+        <item>Standard (4:3)</item>
+        <item>Szélesvásznú (16:9)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>Minimális</item>
+        <item>Alapszintű (alapbeállítás)</item>
+        <item>Közepes</item>
+        <item>Magas</item>
+        <item>Teljes</item>
+        <item>Ultra</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>Automatikus (alapbeállítás)</item>
+        <item>Kikapcsolva</item>
+        <item>Minimális</item>
+        <item>Részleges</item>
+        <item>Teljes</item>
+        <item>Agresszív</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>Kikapcsolva</item>
+        <item>Skálázáskövető</item>
+        <item>Skálázásfüggetlen (alapértelmezett)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>Automatikus</item>
+        <item>Kényszerített tiltás</item>
+        <item>Kényszerített engedélyezés</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>Ki (alapértelmezett)</item>
+        <item>Normál (vertex)</item>
+        <item>Speciális (textúra)</item>
+        <item>Speciális (textúra - agresszív)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>Pontos (Ajánlott)</item>
+        <item>Disable Readbacks (Synchronize GS Thread)</item>
+        <item>Unsynchronized (Non-Deterministic)</item>
+        <item>Disabled (Ignore Transfers)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>Automatikus</item>
+        <item>Semmilyen</item>
+        <item>Weave (Top Field First)</item>
+        <item>Weave (Bottom Field First)</item>
+        <item>Bob (Top Field First)</item>
+        <item>Bob (Bottom Field First)</item>
+        <item>Blend (Top Field First)</item>
+        <item>Blend (Bottom Field First)</item>
+        <item>Adaptive (Top Field First)</item>
+        <item>Adaptive (Bottom Field First)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>Automatikus (alapbeállítás)</item>
+        <item>Kikapcsolva</item>
+        <item>Alapszintű (előállít mipeket)</item>
+        <item>Teljes (PS2-es mipek)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>Hardveres (OpenGL)</item>
+        <item>Szoftveres</item>
+        <item>Hardveres (Vulkan)</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>Ki (alapértelmezett)</item>
+        <item>Fél</item>
+        <item>Teljes</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>Semennyi (Debug)</item>
+        <item>1 Szál</item>
+        <item>2 Szálak</item>
+        <item>3 Szálak</item>
+        <item>4 Szálak</item>
+        <item>5 Szálak</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>Legközelebbi-szomszéd (pont-alapú)</item>
+        <item>Bilineáris (erőltetve)</item>
+        <item>Bilineáris (PS2)</item>
+        <item>Bilineáris (erőltetve, kivéve sprite-oknál)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>Semennyi</item>
+        <item>Részleges</item>
+        <item>Teljes (Hash Gyorsítótár)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>Automatikus (Alapértelmezett)</item>
+        <item>Kikapcsolva (Semennyi)</item>
+        <item>Bekapcsolva (PS2)</item>
+        <item>Bekapcsolva (Kényszerített)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>Semmilyen</item>
+        <item>Pászta-imitáló szűrő</item>
+        <item>Átlós szűrő</item>
+        <item>Háromszög-hatású szűrő</item>
+        <item>Hullámzó-hatású szűrő</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>Natív 0.5x</item>
+        <item>Natív 0.75x</item>
+        <item>Natív 1x</item>
+        <item>Natív 1.25x</item>
+        <item>Natív 1.5x</item>
+        <item>Natív 1.75x</item>
+        <item>Natív 2x</item>
+        <item>Natív 2.25x</item>
+        <item>Natív 2.5x</item>
+        <item>Natív 2.75x</item>
+        <item>Natív 3x</item>
+        <item>Natív 3.5x</item>
+        <item>Natív 4x</item>
+        <item>Natív 5x</item>
+        <item>Natív 6x</item>
+        <item>Natív 7x</item>
+        <item>Natív 8x</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (szigorú szinkronizáció)</item>
+        <item>1 képkocka</item>
+        <item>2 képkocka</item>
+        <item>3 képkocka</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>Matematikai kerekítés</item>
+        <item>Kerekítés -végtelen felé</item>
+        <item>Kerekítés +végtelen felé</item>
+        <item>Levágás (alapértelmezett)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>Kikapcsolva</item>
+        <item>Engedélyezve</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>Semmilyen</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>Általános</item>
+        <item>Rendszer</item>
+        <item>Grafika</item>
+        <item>Hang</item>
+        <item>Memóriakártyák</item>
+        <item>Játéklista</item>
+        <item>BIOS</item>
+        <item>Achievements</item>
+        <item>Haladó</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>Port #1</item>
+        <item>Port #2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>Semmilyen</item>
+        <item>Analóg-kar nélküli kontroller</item>
+        <item>Egy analóg-karos kontroller</item>
+        <item>Két analóg-karos kontroller</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>Legközelebbi (Nearest)</item>
+        <item>Lineáris</item>
+        <item>Köbös</item>
+        <item>Hermite-féle</item>
+        <item>Catmull-Rom-féle</item>
+        <item>Gauss-féle (ajánlott)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>Hangnyújtás (ajánlott)</item>
+        <item>Async Mix (Breaks FMVs/Games)</item>
+        <item>Semmilyen</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Rendszertéma követése</item>
+        <item>Világos</item>
+        <item>Sötét</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>Áttetszőség megváltoztatása</item>
+        <item>Gombok hozzáadása/elrejtése</item>
+        <item>Gombok áthelyezése</item>
+        <item>Gombok átméretezése</item>
+        <item>Elrendezés alaphelyzetbe állítása</item>
+        <item>Kilépés a szerkesztőből</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>Semmilyen</item>
+        <item>Normál (alapértelmezett)</item>
+        <item>Extra</item>
+        <item>Extra + előjel megtartása</item>
+    </string-array>
+</resources>

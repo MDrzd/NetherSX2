@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@id/seekbar"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="80.0" />
+    <TextView
+        android:id="@id/seekbar_value"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20.0" />
+</LinearLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>ปัดหน้าจอไปทางซ้าย</item>
+        <item>ปัดหน้าจอไปทางขวา</item>
+        <item>ปัดหน้าจอขึ้นด้านบน</item>
+        <item>ปัดหน้าจอลงด้านล่าง</item>
+        <item>ควบคุมด้วยเซ็นเซอร์ เอียงทางซ้าย (แกน X)</item>
+        <item>ควบคุมด้วยเซ็นเซอร์ เอียงทางขวา (แกน X)</item>
+        <item>ควบคุมด้วยเซ็นเซอร์ เอียงไปข้างหลัง (แกน Y)</item>
+        <item>ควบคุมด้วยเซ็นเซอร์ เอียงไปข้างหน้า (แกน Y)</item>
+        <item>ควบคุมด้วยเซ็นเซอร์ หมุนไปทางซ้าย (แกน Z)</item>
+        <item>ควบคุมด้วยเซ็นเซอร์ หมุนไปทางขวา (แกน Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>อัตโนมัติ</item>
+        <item>ซ้าย/บน</item>
+        <item>กึ่งกลาง</item>
+        <item>ขวา/ล่าง</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>ความถี่ซีพียู แบบปกติ (0)</item>
+        <item>ลดค่าความถี่ซีพียู แบบเบาะๆ (1)</item>
+        <item>ลดค่าความถี่ซีพียู แบบปานกลาง (2)</item>
+        <item>ลดค่าความถี่ซีพียู แบบสูงสุด (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>ใช้การตั้งค่าอุปกรณ์</item>
+        <item>แนวตั้ง</item>
+        <item>แนวนอน</item>
+        <item>อัตโนมัติโดยเซ็นเซอร์ทิศทาง</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>เพิ่มแพทช์โค้ดสูตร</item>
+        <item>แก้ไขแพทช์โค้ดสูตร</item>
+        <item>ลบแพทช์โค้ดสูตร</item>
+        <item>สลับใช้แพทช์โค้ดสูตร</item>
+        <item>ปิดเมนู</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>ปิด (ใช้สัดส่วนแบบปกติ)</item>
+        <item>อัตโนมัติ ค่ามาตรฐาน (สัดส่วน 4:3/3:2 แบบโปรเกรสซีฟ)</item>
+        <item>ค่ามาตรฐาน (สัดส่วน 4:3)</item>
+        <item>จอกว้าง (สัดส่วน 16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>ไม่มี</item>
+        <item>ปกติ (ค่าเริ่มต้น)</item>
+        <item>เพิ่มเติม + สงวนเครื่องหมาย</item>
+        <item>เต็มที่</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>ปิดการใช้งาน (ค่าตั้งต้น)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>ยืดเต็มจอ (ภาพเต็มจอ)</item>
+        <item>อัตโนมัติ ค่ามาตรฐาน (สัดส่วน 4:3/3:2 แบบโปรเกรสซีฟ)</item>
+        <item>ค่ามาตรฐาน (สัดส่วน 4:3)</item>
+        <item>จอกว้าง (สัดส่วน 16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>ไม่มี (ใกล้เคียง-ข้างเคียง)</item>
+        <item>ไบลิเนียร์ (ละมุน)</item>
+        <item>ไบลิเนียร์ (คม)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>ต่ำสุด</item>
+        <item>พื้นฐาน (ค่าตั้งต้น)</item>
+        <item>ปานกลาง</item>
+        <item>สูง</item>
+        <item>เต็มที่</item>
+        <item>สูงสุด</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>ปิดใช้งาน</item>
+        <item>คมชัดเท่านั้น (ความละเอียดภายในเกม)</item>
+        <item>คมชัด และปรับขนาด (ความละเอียดหน้าจอ)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>ปิดใช้งาน</item>
+        <item>ปกติ</item>
+        <item>รุนแรง</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (ปิดใช้งาน)</item>
+        <item>1 (กว้างสูงสุดที่ 64)</item>
+        <item>2 (กว้างสูงสุดที่ 128)</item>
+        <item>3 (กว้างสูงสุดที่ 192)</item>
+        <item>4 (กว้างสูงสุดที่ 256)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>อัตโนมัติ (ค่าเริ่มต้น)</item>
+        <item>ปิด</item>
+        <item>น้อยที่สุด</item>
+        <item>บางส่วน</item>
+        <item>เต็มที่</item>
+        <item>รุนแรง</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>ปิด</item>
+        <item>ปรับสเกล</item>
+        <item>ไม่ปรับสเกล (ค่าตั้งต้น)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>อัตโนมัติ</item>
+        <item>บังคับปิด</item>
+        <item>บังคับเปิด</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>ปิด (ค่าเริ่มต้น)</item>
+        <item>ปกติ (เวอร์เท็ค)</item>
+        <item>พิเศษ (เท็คเจอร์)</item>
+        <item>พิเศษ (เท็คเจอร์ - รุนแรง)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>เน้นความแม่นยำ (แนะนำ)</item>
+        <item>ปิดการทำงาน Readbacks (ซิงโครไนซ์กับเธรด GS)</item>
+        <item>ไม่ซิงโครไนซ์ (Non-Deterministic)</item>
+        <item>ปิดการทำงาน (สะเว้นการส่งต่อข้อมูล)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>อัตโนมัติ</item>
+        <item>ไม่มี</item>
+        <item>Weave (ฟิลด์บนสุดก่อน)</item>
+        <item>Weave (ฟิลด์ล่างสุดก่อน)</item>
+        <item>Bob (ฟิลด์บนสุดก่อน)</item>
+        <item>Bob (ฟิลด์ล่างสุดก่อน)</item>
+        <item>Blend (ฟิลด์บนสุดก่อน)</item>
+        <item>Blend (ฟิลด์ล่างสุดก่อน)</item>
+        <item>Adaptive (ฟิลด์บนสุดก่อน)</item>
+        <item>Adaptive (ฟิลด์ล่างสุดก่อน)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>อัตโนมัติ (ค่าตั้งต้น)</item>
+        <item>ปิด</item>
+        <item>พื้นฐาน (แบบสร้าง Mips)</item>
+        <item>เต็มที่ (แบบ PS2 Mips)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>โอเพ่นจีแอล</item>
+        <item>ซอฟต์แวร์</item>
+        <item>วัลแคน</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>ปิด (ค่าเริ่มต้น)</item>
+        <item>ครึ่ง</item>
+        <item>เต็มที่</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>ไม่มี (ตัวช่วยแก้ไขบั๊ก)</item>
+        <item>1 เธรด</item>
+        <item>2 เธรด</item>
+        <item>3 เธรด</item>
+        <item>4 เธรด</item>
+        <item>5 เธรด</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>อัตโนมัติ</item>
+        <item>บังคับปิด</item>
+        <item>บังคับเปิด</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>ใกล้เคียง-ข้างเคียง (จุด)</item>
+        <item>ไบลิเนียร์ (แบบบังคับ)</item>
+        <item>ไบลิเนียร์ (แบบ PS2)</item>
+        <item>ไบลิเนียร์ (แบบบังคับที่ไม่รวม Sprite)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>ไม่มี</item>
+        <item>บางส่วน</item>
+        <item>เต็ม (แฮชแคช)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>อัตโนมัติ (ค่าเริ่มต้น)</item>
+        <item>ปิดใช้งาน (ปิด)</item>
+        <item>เปิดใช้งาน (PS2)</item>
+        <item>เปิดใช้งาน (แบบบังคับ)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>ไม่มี</item>
+        <item>ฟิลเตอร์แบบแนวนอน</item>
+        <item>ฟิลเตอร์แบบแนวทแยง</item>
+        <item>ฟิลเตอร์แบบสามเหลี่ยม</item>
+        <item>ฟิลเตอร์แบบคลื่น</item>
+        <item>Lottes CRT</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x จากความละเอียดดั้งเดิม (~240p)</item>
+        <item>0.75x จากความละเอียดดั้งเดิม (~360p)</item>
+        <item>1x จากความละเอียดดั้งเดิม (~480p)</item>
+        <item>1.25x จากความละเอียดดั้งเดิม</item>
+        <item>1.5x จากความละเอียดดั้งเดิม</item>
+        <item>1.75x จากความละเอียดดั้งเดิม</item>
+        <item>2x จากความละเอียดดั้งเดิม (~720p)</item>
+        <item>2.25x จากความละเอียดดั้งเดิม</item>
+        <item>2.5x จากความละเอียดดั้งเดิม</item>
+        <item>2.75x จากความละเอียดดั้งเดิม</item>
+        <item>3x จากความละเอียดดั้งเดิม (~1080p)</item>
+        <item>3.5x จากความละเอียดดั้งเดิม</item>
+        <item>4x จากความละเอียดดั้งเดิม (~1440p 2K)</item>
+        <item>5x จากความละเอียดดั้งเดิม (~1620p)</item>
+        <item>6x จากความละเอียดดั้งเดิม (~2160p 4K)</item>
+        <item>7x จากความละเอียดดั้งเดิม (~2520p)</item>
+        <item>8x จากความละเอียดดั้งเดิม (~2880p)</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (การซิงโครไนซ์อย่างเข้มงวด)</item>
+        <item>1 เฟรม</item>
+        <item>2 เฟรม</item>
+        <item>3 เฟรม</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>ต่อค่าเชิงใกล้ที่สุด</item>
+        <item>ต่อค่าเชิงลบไร้ขีดจำกัด</item>
+        <item>ต่อค่าเชิงบวกไร้ขีดจำกัด</item>
+        <item>ต่อค่าเชิงศูนย์/ตัด (ค่าเริ่มต้น)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>ปิดใช้งาน</item>
+        <item>เปิดใช้งาน</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>ไม่มี</item>
+        <item>จอย DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>ทั่วไป</item>
+        <item>ระบบ</item>
+        <item>กราฟิก</item>
+        <item>เสียง</item>
+        <item>เม็มโมรี่การ์ด</item>
+        <item>สารบัญเกม</item>
+        <item>ไบออส</item>
+        <item>เป้าหมายความสำเร็จ</item>
+        <item>ขั้นสูง</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>พอร์ต 1</item>
+        <item>พอร์ต 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>ไม่มี</item>
+        <item>ปุ่มกดแบบดิจิตอล</item>
+        <item>ปุ่มกดแบบอนาล็อกเดี่ยว</item>
+        <item>ปุ่มกดแบบอนาล็อกคู่</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>ใกล้ที่สุด</item>
+        <item>เชิงเส้น</item>
+        <item>คิวบิค</item>
+        <item>เฮอร์ไมต์</item>
+        <item>แคตมุล-รอม</item>
+        <item>เกาส์เซียน (แนะนำ)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>TimeStretch (แนะนำ)</item>
+        <item>Async แบบผสมผสาน (อาจทำให้ ฉากคัตซีน/เกมรวน)</item>
+        <item>ไม่มี</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>ยืนพื้นค่าจากระบบ</item>
+        <item>สว่าง</item>
+        <item>มืด</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>เปลี่ยนค่าโปร่งแสง</item>
+        <item>เพิ่ม/ลบ ปุ่ม</item>
+        <item>ย้ายตำแหน่งปุ่ม</item>
+        <item>ปรับขนาดปุ่ม</item>
+        <item>คืนค่าเค้าโครงปุ่ม</item>
+        <item>ออกจากการแก้ไข</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>ไม่มี</item>
+        <item>ปกติ (ค่าเริ่มต้น)</item>
+        <item>เพิ่มเติม</item>
+        <item>เพิ่มเติม + สงวนเครื่องหมาย</item>
+    </string-array>
+</resources>

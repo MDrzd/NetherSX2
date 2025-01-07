@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:compileSdkVersion="23"
+    android:compileSdkVersionCodename="6.0-2438415"
+    package="xyz.aethersx2.android"
+    platformBuildVersionCode="23"
+    platformBuildVersionName="6.0-2438415"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Mengizinkan aplikasi untuk mengendalikan vibrator. -->
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <!-- Memungkinkan aplikasi membuat soket jaringan dan menggunakan protokol jaringan khusus. Browser dan aplikasi lain menyediakan sarana untuk mengirim data ke internet sehingga izin ini tidak diperlukan untuk mengirim data ke internet. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <application
+        android:theme="@style/AppTheme"
+        android:label="NetherSX2"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:hasFragileUserData="true">
+        <activity
+            android:theme="@style/AppTheme"
+            android:label="@string/save_state_manager_title"
+            android:name="xyz.aethersx2.android.SaveStateManagerActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/AppTheme"
+            android:label="@string/memory_card_create_title"
+            android:name="xyz.aethersx2.android.CreateMemoryCardActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="xyz.aethersx2.android.FileEditorActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/title_activity_setup_wizard"
+            android:name="xyz.aethersx2.android.SetupWizardActivity"
+            android:exported="false"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize" />
+        <activity
+            android:theme="@style/AppTheme"
+            android:label="@string/title_activity_settings"
+            android:name="xyz.aethersx2.android.SettingsActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="xyz.aethersx2.android.MainActivity" />
+        </activity>
+        <activity
+            android:label="@string/title_activity_settings"
+            android:name="xyz.aethersx2.android.ControllerSettingsActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="xyz.aethersx2.android.MainActivity" />
+        </activity>
+        <activity
+            android:label="@string/title_activity_game_properties"
+            android:name="xyz.aethersx2.android.GamePropertiesActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="xyz.aethersx2.android.MainActivity" />
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.EmulationActivity"
+            android:label="NetherSX2"
+            android:name="xyz.aethersx2.android.EmulationActivity"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+            android:alwaysRetainTaskState="true"
+            android:immersive="true"
+            android:parentActivityName="xyz.aethersx2.android.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="xyz.aethersx2.android.MainActivity" />
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="NetherSX2"
+            android:name="xyz.aethersx2.android.MainActivity"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="xyz.aethersx2.android.androidx-startup">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+        <meta-data
+            android:name="com.android.dynamic.apk.fused.modules"
+            android:value="base" />
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store" />
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_STANDALONE_APK" />
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:value="@xml/splits0" />
+    </application>
+</manifest>

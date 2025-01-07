@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/cover_image"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="60.0dip"
+            android:layout_height="55.0dip"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textColor="?android:textColorPrimary"
+            android:ellipsize="end"
+            android:id="@id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:text="Title"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginEnd="4.0dip"
+            app:layout_constraintEnd_toStartOf="@id/button_container"
+            app:layout_constraintStart_toEndOf="@id/cover_image"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textColor="?android:textColorPrimary"
+            android:ellipsize="end"
+            android:id="@id/subtitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4.0dip"
+            android:text="Code - Path"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginEnd="4.0dip"
+            app:layout_constraintEnd_toStartOf="@id/button_container"
+            app:layout_constraintStart_toEndOf="@id/cover_image"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageButton
+                android:id="@id/menu"
+                android:background="?android:selectableItemBackground"
+                android:layout_width="40.0dip"
+                android:layout_height="55.0dip"
+                android:src="@drawable/ic_baseline_menu_24"
+                android:contentDescription="Pause Menu"
+                android:layout_marginEnd="5.0dip"
+                app:tint="?android:textColorPrimary" />
+            <ImageButton
+                android:id="@id/game_properties"
+                android:background="?android:selectableItemBackground"
+                android:layout_width="40.0dip"
+                android:layout_height="55.0dip"
+                android:src="@drawable/ic_baseline_info_24"
+                android:contentDescription="Game Properties"
+                android:layout_marginEnd="5.0dip"
+                app:tint="?android:textColorPrimary" />
+            <ImageButton
+                android:id="@id/settings"
+                android:background="?android:selectableItemBackground"
+                android:layout_width="40.0dip"
+                android:layout_height="55.0dip"
+                android:src="@drawable/ic_baseline_settings_24"
+                android:contentDescription="Settings"
+                android:layout_marginEnd="5.0dip"
+                app:tint="?android:textColorPrimary" />
+            <ImageButton
+                android:id="@id/controller_settings"
+                android:background="?android:selectableItemBackground"
+                android:layout_width="40.0dip"
+                android:layout_height="55.0dip"
+                android:src="@drawable/ic_baseline_gamepad_24"
+                android:contentDescription="Controller Settings"
+                android:layout_marginEnd="5.0dip"
+                app:tint="?android:textColorPrimary" />
+            <ImageButton
+                android:id="@id/close"
+                android:background="?android:selectableItemBackground"
+                android:layout_width="40.0dip"
+                android:layout_height="55.0dip"
+                android:src="@drawable/ic_baseline_close_24"
+                android:contentDescription="Close"
+                android:layout_marginEnd="5.0dip"
+                app:tint="?android:textColorPrimary" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:id="@id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

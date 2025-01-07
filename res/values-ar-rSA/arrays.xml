@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="controller_other_binding_entries">
+        <item>شاشة اللمس السحب إلى اليسار</item>
+        <item>شاشة اللمس السحب إلى اليمين</item>
+        <item>شاشة اللمس السحب إلى الأعلى</item>
+        <item>شاشة اللمس السحب إلى الأسفل</item>
+        <item>إمالة الجهاز إلى اليسار (محور X)</item>
+        <item>إمالة الجهاز إلى اليمين (محور X)</item>
+        <item>إمالة الجهاز إلى الخلف (محور Y)</item>
+        <item>إمالة الجهاز إلى الأمام (محور Y)</item>
+        <item>تدوير الجهاز إلى اليسار (محور Z)</item>
+        <item>تدوير الجهاز إلى اليمين (محور Z)</item>
+    </string-array>
+    <string-array name="display_alignment_entries">
+        <item>تلقائي</item>
+        <item>اعلى/يسار</item>
+        <item>الوسط</item>
+        <item>يمين/أسفل</item>
+    </string-array>
+    <string-array name="ee_cycle_rate_entries">
+        <item>50% (-3)</item>
+        <item>60% (-2)</item>
+        <item>75% (-1)</item>
+        <item>100% (0)</item>
+        <item>130% (1)</item>
+        <item>180% (2)</item>
+        <item>300% (3)</item>
+    </string-array>
+    <string-array name="ee_cycle_skip_entries">
+        <item>عادي (0)</item>
+        <item>تخفيض خفيف لتردد التشغيل (1)</item>
+        <item>تخفيض متوسط لتردد التشغيل (2)</item>
+        <item>تخفيض أقصى لتردد التشغيل (3)</item>
+    </string-array>
+    <string-array name="emulation_activity_orientation_entries">
+        <item>استخدم إعدادات الجهاز</item>
+        <item>عمودي</item>
+        <item>أفقي</item>
+        <item>قائم على الاستشعار</item>
+    </string-array>
+    <string-array name="emulation_patches_menu">
+        <item>إضافة شفرة</item>
+        <item>تحرير الشفرات</item>
+        <item>إزالة الشفرات</item>
+        <item>تمكين/تعطيل الشفرات</item>
+        <item>إغلاق القائمة</item>
+    </string-array>
+    <string-array name="fmv_aspect_ratio_entries">
+        <item>إيقاف (استخدم تناسب الأبعاد الطبيعي)</item>
+        <item>المعيار التلقائي (4:3/3:2 تقدمي)</item>
+        <item>قياسي (4:3)</item>
+        <item>شاشة العرض (16:9)</item>
+    </string-array>
+    <string-array name="fpu_clamp_mode_entries">
+        <item>لا شيء</item>
+        <item>عادي (افتراضي)</item>
+        <item>إضافي + حفظ العلامة</item>
+        <item>كامل</item>
+    </string-array>
+    <string-array name="gs_anisotropic_filtering_entries">
+        <item>معطل (افتراضي)</item>
+        <item>2x</item>
+        <item>4x</item>
+        <item>8x</item>
+        <item>16x</item>
+    </string-array>
+    <string-array name="gs_aspect_ratio_entries">
+        <item>تمديد (ملء الشاشة)</item>
+        <item>المعيار التلقائي (4:3/3:2 تقدمي)</item>
+        <item>قياسي (4:3)</item>
+        <item>شاشة عريضة (16:9)</item>
+    </string-array>
+    <string-array name="gs_bilinear_upscale_entries">
+        <item>لا شيء (Nearest-Neighbor)</item>
+        <item>ثنائي الأسلوبين (ثانية)</item>
+        <item>ثنائي الأسلوبين (حاد)</item>
+    </string-array>
+    <string-array name="gs_blending_entries">
+        <item>الحد الأدنى</item>
+        <item>أساسي (افتراضي)</item>
+        <item>متوسط</item>
+        <item>عالي</item>
+        <item>كامل</item>
+        <item>الأقصى</item>
+    </string-array>
+    <string-array name="gs_cas_mode">
+        <item>معطل</item>
+        <item>حاد فقط (الحل الداخلي)</item>
+        <item>الحدة و تغيير الحجم (دقة العرض)</item>
+    </string-array>
+    <string-array name="gs_cpu_clut_render_entries">
+        <item>معطل</item>
+        <item>عادي</item>
+        <item>عنيف</item>
+    </string-array>
+    <string-array name="gs_cpu_sprite_render_bw_entries">
+        <item>0 (معطل)</item>
+        <item>1 (64 عرض أقصى)</item>
+        <item>2 (128 عرض أقصى)</item>
+        <item>3 (192 عرض أقصى)</item>
+        <item>4 (256 عرض أقصى)</item>
+    </string-array>
+    <string-array name="gs_crc_hack_entries">
+        <item>تلقائي (افتراضي)</item>
+        <item>إيقاف</item>
+        <item>الحد الأدنى</item>
+        <item>جزئي</item>
+        <item>كامل</item>
+        <item>بحد عنيف</item>
+    </string-array>
+    <string-array name="gs_dithering_entries">
+        <item>إيقاف</item>
+        <item>مُكبر (على حسب تكبير الوضوح)</item>
+        <item>ثابت الحجم (افتراضي)</item>
+    </string-array>
+    <string-array name="gs_half_bottom_override_entries">
+        <item>تلقائي</item>
+        <item>تعطيل إجباري</item>
+        <item>ممكَّن إجباري</item>
+    </string-array>
+    <string-array name="gs_half_pixel_offset_entries">
+        <item>إيقاف (الافتراضي)</item>
+        <item>طبيعي (Vertex)</item>
+        <item>خاص (Texture)</item>
+        <item>خاص (Texture - Aggressive)</item>
+    </string-array>
+    <string-array name="gs_hardware_download_mode_entries">
+        <item>دقيق (مستحسن)</item>
+        <item>تعطيل قرائة ذاكرة vram (مزامنة خيط معالجة GS)</item>
+        <item>غير متزامن (غير حتمي)</item>
+        <item>معطل (تجاهل عمليات النقل)</item>
+    </string-array>
+    <string-array name="gs_interlace_entries">
+        <item>تلقائي</item>
+        <item>لا شيء</item>
+        <item>Weave (الحقل العلوي أولا)</item>
+        <item>Weave (الحقل السفلي أولا)</item>
+        <item>Bob (الحقل العلوي أولا)</item>
+        <item>Bob (الحقل السفلي أولا)</item>
+        <item>المزج (الحقل العلوي أولا)</item>
+        <item>المزج (الحقل السفلي أولا)</item>
+        <item>متكيف (الحقل العلوي أولا)</item>
+        <item>متكيف (الحقل السفلي أولا)</item>
+    </string-array>
+    <string-array name="gs_mipmap_entries">
+        <item>تلقائي (افتراضي)</item>
+        <item>إيقاف</item>
+        <item>أساسي (إنشاء Mipmaps)</item>
+        <item>كامل (PS2 Mipmaps)</item>
+    </string-array>
+    <string-array name="gs_renderer_entries">
+        <item>OpenGL</item>
+        <item>Software</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="gs_round_sprite_entries">
+        <item>إيقاف (الافتراضي)</item>
+        <item>النصف</item>
+        <item>كامل</item>
+    </string-array>
+    <string-array name="gs_sw_extra_threads_entries">
+        <item>لا يوجد (تصحيح)</item>
+        <item>خيط معالجة واحد</item>
+        <item>خيطين معالجة</item>
+        <item>3 خيوط معالجة</item>
+        <item>4 خيوط معالجة</item>
+        <item>5 خيوط معالجة</item>
+    </string-array>
+    <string-array name="gs_texture_barriers_entries">
+        <item>تلقائي</item>
+        <item>تعطيل إجباري</item>
+        <item>تمكين إجباري</item>
+    </string-array>
+    <string-array name="gs_texture_filtering_entries">
+        <item>أقرب مجاور (نقطة واحدة)</item>
+        <item>ثنائي الخط (إجبار)</item>
+        <item>ثنائي الخط (مثل الPS2)</item>
+        <item>ثنائي الخط (إجبار لكل الصور إلا Sprites)</item>
+    </string-array>
+    <string-array name="gs_texture_preloading_entries">
+        <item>بلا</item>
+        <item>جزئي</item>
+        <item>ممتلىء (ذاكرة التخزين المؤقت)</item>
+    </string-array>
+    <string-array name="gs_trilinear_filtering_entries">
+        <item>تلقائي (افتراضي)</item>
+        <item>معطل (إيقاف)</item>
+        <item>تمكين (PS2)</item>
+        <item>تمكين (إجباري)</item>
+    </string-array>
+    <string-array name="gs_tv_shader_entries">
+        <item>لا شيء</item>
+        <item>فلتر Scanline</item>
+        <item>فلتر Diagonal</item>
+        <item>فلتر Triangle</item>
+        <item>فلتر Wave</item>
+        <item>CRT لوتيس</item>
+    </string-array>
+    <string-array name="gs_upscale_entries">
+        <item>0.5x الدقة</item>
+        <item>0.75x الدقة</item>
+        <item>1x الدقة الأصلية</item>
+        <item>1.25x الدقة</item>
+        <item>1.5x الدقة</item>
+        <item>1.75x الدقة</item>
+        <item>2x الدقة</item>
+        <item>2.25x الدقة</item>
+        <item>2.5x الدقة</item>
+        <item>2.75x الدقة</item>
+        <item>3x الدقة</item>
+        <item>3.5x الدقة</item>
+        <item>4x الدقة</item>
+        <item>5x الدقة</item>
+        <item>6x الدقة</item>
+        <item>7x أصلي</item>
+        <item>8x أصلي</item>
+    </string-array>
+    <string-array name="gs_vsync_queue_size_entries">
+        <item>0 (مزامنة مشددة)</item>
+        <item>إطار واحد</item>
+        <item>إطارين</item>
+        <item>3 إطارات</item>
+    </string-array>
+    <string-array name="round_mode_entries">
+        <item>نحو الأقرب</item>
+        <item>نحو اللانهائية السلبية</item>
+        <item>نحو اللانهائية الإيجابية</item>
+        <item>نحو الصفر/إقطع (افتراضي)</item>
+    </string-array>
+    <string-array name="settings_boolean_entries">
+        <item>معطَّل</item>
+        <item>ممكَّن</item>
+    </string-array>
+    <string-array name="settings_controller_type_entries">
+        <item>لا شيء</item>
+        <item>DualShock 2</item>
+    </string-array>
+    <string-array name="settings_tabs">
+        <item>عام</item>
+        <item>النظام</item>
+        <item>الرسومات</item>
+        <item>الصوت</item>
+        <item>بطاقات الذاكرة</item>
+        <item>قائمة الألعاب</item>
+        <item>BIOS</item>
+        <item>إنجازات</item>
+        <item>متقدم</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_port_entries">
+        <item>منفذ 1</item>
+        <item>منفذ 2</item>
+    </string-array>
+    <string-array name="settings_touchscreen_controller_view_entries">
+        <item>لا شيء</item>
+        <item>التحكم الرقمي بدون Analog</item>
+        <item>تحكم Analog منفرد</item>
+        <item>تحكم Analog مزدوج</item>
+    </string-array>
+    <string-array name="spu_interpolation_entries">
+        <item>الأقرب</item>
+        <item>خطي</item>
+        <item>مكعبي</item>
+        <item>Hermite</item>
+        <item>Catmull-Rom</item>
+        <item>Gaussian (موصي به)</item>
+    </string-array>
+    <string-array name="spu_sync_mode_entries">
+        <item>تمديد الوقت (مستحسن)</item>
+        <item>المزيج الغير متزامن (يكسر مقاطع المرئية و الألعاب)</item>
+        <item>لا شيء</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>اتبع النظام</item>
+        <item>فاتح</item>
+        <item>داكن</item>
+    </string-array>
+    <string-array name="touchscreen_layout_menu">
+        <item>تغيير الشفافية</item>
+        <item>إضافة/إزالة الأزرار</item>
+        <item>تحريك الأزرار</item>
+        <item>تغيير حجم الأزرار</item>
+        <item>إعادة تعيين التصميم</item>
+        <item>إنهاء المحرر</item>
+    </string-array>
+    <string-array name="vu_clamp_mode_entries">
+        <item>لا شيء</item>
+        <item>عادي (افتراضي)</item>
+        <item>إضافي</item>
+        <item>إضافي + حفظ العلامة</item>
+    </string-array>
+</resources>

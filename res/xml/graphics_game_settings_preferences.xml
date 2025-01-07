@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_graphics_rendering">
+        <ListPreference
+            app:entries="@array/gs_renderer_entries"
+            app:entryValues="@array/gs_renderer_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/Renderer"
+            app:title="@string/settings_gpu_renderer"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_upscale_entries"
+            app:entryValues="@array/gs_upscale_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/upscale_multiplier"
+            app:title="@string/settings_upscale_multiplier"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_texture_filtering_entries"
+            app:entryValues="@array/gs_texture_filtering_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/filter"
+            app:title="@string/settings_bilinear_filtering"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_mipmap_entries"
+            app:entryValues="@array/gs_mipmap_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/mipmap_hw"
+            app:title="@string/settings_mipmapping"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_trilinear_filtering_entries"
+            app:entryValues="@array/gs_trilinear_filtering_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/UserHacks_TriFilter"
+            app:title="@string/settings_trilinear_filtering"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_anisotropic_filtering_entries"
+            app:entryValues="@array/gs_anisotropic_filtering_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/MaxAnisotropy"
+            app:title="@string/settings_anisotropic_filtering"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_blending_entries"
+            app:entryValues="@array/gs_blending_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/accurate_blending_unit"
+            app:title="@string/settings_blending_accuracy"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_texture_preloading_entries"
+            app:entryValues="@array/gs_texture_preloading_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/texture_preloading"
+            app:title="@string/settings_preload_textures"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_hardware_download_mode_entries"
+            app:entryValues="@array/gs_hardware_download_mode_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/HWDownloadMode"
+            app:title="@string/gs_hardware_download_mode"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_game_display">
+        <ListPreference
+            app:entries="@array/gs_aspect_ratio_entries"
+            app:entryValues="@array/gs_aspect_ratio_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/AspectRatio"
+            app:title="@string/settings_aspect_ratio"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/fmv_aspect_ratio_entries"
+            app:entryValues="@array/fmv_aspect_ratio_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/FMVAspectRatioSwitch"
+            app:title="@string/settings_fmv_aspect_ratio"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_bilinear_upscale_entries"
+            app:entryValues="@array/gs_bilinear_upscale_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/linear_present_mode"
+            app:title="@string/settings_bilinear_upscaling"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/EnableWideScreenPatches"
+            app:summary="@string/settings_summary_widescreen_patches"
+            app:title="@string/settings_widescreen_patches"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/EnableNoInterlacingPatches"
+            app:summary="@string/settings_summary_no_interlacing_patches"
+            app:title="@string/settings_no_interlacing_patches"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/VsyncEnable"
+            app:summary="@string/settings_summary_host_vsync"
+            app:title="@string/settings_host_vsync"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference
+            app:defaultValue="100.0"
+            app:format="%.0f%%"
+            app:iconSpaceReserved="false"
+            app:interval="1.0"
+            app:key="EmuCore/GS/StretchY"
+            app:maxValue="200.0"
+            app:minValue="1.0"
+            app:multiplier="1.0"
+            app:nullable="true"
+            app:title="@string/settings_vertical_stretch"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.RectPreference
+            app:defaultValue="0"
+            app:format="%dpx"
+            app:iconSpaceReserved="false"
+            app:interval="1"
+            app:key="EmuCore/GS/Crop"
+            app:maxValue="1000"
+            app:minValue="0"
+            app:nullable="true"
+            app:title="@string/settings_crop" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_post_processing">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/fxaa"
+            app:summary="@string/settings_summary_fxaa"
+            app:title="@string/settings_fxaa"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_cas_mode"
+            app:entryValues="@array/gs_cas_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/CASMode"
+            app:summary="@string/settings_summary_cas"
+            app:title="@string/settings_cas"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:format="%d%%"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/CASSharpness"
+            app:maxValue="100"
+            app:minValue="0"
+            app:nullable="true"
+            app:title="@string/settings_cas_sharpness"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:entries="@array/gs_tv_shader_entries"
+            app:entryValues="@array/gs_tv_shader_values"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/TVShader"
+            app:title="@string/settings_tv_shader"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/ShadeBoost"
+            app:summary="@string/settings_summary_shadeboost"
+            app:title="@string/settings_shadeboost"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:dependency="EmuCore/GS/ShadeBoost"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/ShadeBoost_Brightness"
+            app:maxValue="100"
+            app:minValue="1"
+            app:nullable="true"
+            app:title="@string/settings_shadeboost_brightness"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:dependency="EmuCore/GS/ShadeBoost"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/ShadeBoost_Contrast"
+            app:maxValue="100"
+            app:minValue="1"
+            app:nullable="true"
+            app:title="@string/settings_shadeboost_contrast"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.IntSpinBoxPreference
+            app:dependency="EmuCore/GS/ShadeBoost"
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/ShadeBoost_Saturation"
+            app:maxValue="100"
+            app:minValue="1"
+            app:nullable="true"
+            app:title="@string/settings_shadeboost_saturation"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_category_texture_replacement">
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/LoadTextureReplacements"
+            app:summary="@string/settings_summary_load_texture_replacements"
+            app:title="@string/settings_load_texture_replacements"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/LoadTextureReplacementsAsync"
+            app:summary="@string/settings_summary_async_texture_loading"
+            app:title="@string/settings_async_texture_loading"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
