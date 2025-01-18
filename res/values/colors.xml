@@ -33,8 +33,8 @@
     <color name="colorAccent">#ffe91e63</color>
     <color name="colorMainBackground">#ffffffff</color>
     <color name="colorNavigation">#ffffffff</color>
-    <color name="colorPrimary">#ff3f51b5</color>
-    <color name="colorPrimaryDark">#ff3f51b5</color>
+    <color name="colorPrimary">#ffdc362e</color>
+    <color name="colorPrimaryDark">#ffdc362e</color>
     <color name="colorSurface">#ffffffff</color>
     <color name="colorToolbarBackground">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
