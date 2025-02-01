@@ -8,11 +8,6 @@ The modification process was done using:
 - **Apk Editor**: For modifying resources and application code.  
 - **MT Manager**: For direct APK editing.  
 
-## 🚀 Installation Guide  
-1. Download the NetherSX2 APK from the releases page.  
-2. Enable "Unknown Sources" in your device settings.  
-3. Install the APK and run the application.  
-
 ## ⚠️ Disclaimer  
 This project is for educational and experimental purposes only. It is not affiliated with the original AetherSX2 developers. Use it at your own risk.  
 
