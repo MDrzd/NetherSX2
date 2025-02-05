@@ -433,4 +433,5 @@
     <item type="id" name="view_tree_view_model_store_owner" />
     <item type="id" name="visible_removing_fragment_view_tag" />
     <item type="id" name="zero_corner_chip" />
+    <item type="id" name="tempTextView" />
 </resources>
