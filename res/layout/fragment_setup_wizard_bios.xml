@@ -20,8 +20,21 @@
             android:text="@string/setup_wizard_bios_title"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        		<ImageView android:id="@id/imageView" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@mipmap/logo" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
-		<com.test.app.MovableButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Ekstrak BIOS" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageView" />
+        		<ImageView 
+				android:id="@id/imageView" 
+				android:layout_width="45.0dip" 
+				android:layout_height="45.0dip" 
+				android:src="@mipmap/logo" 
+				app:layout_constraintEnd_toEndOf="parent" 
+				app:layout_constraintTop_toTopOf="parent" />
+		<com.test.app.MovableButton 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="10.0dip" 
+			android:text="Ekstrak BIOS" 
+			app:layout_constraintEnd_toEndOf="parent" 
+			app:layout_constraintStart_toStartOf="parent" 
+			app:layout_constraintTop_toBottomOf="@id/imageView" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <TextView
         android:textAppearance="?textAppearanceBody1"
