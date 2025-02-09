@@ -881,94 +881,37 @@
 
     move-result v0
 
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
+    if-nez v0, :cond_3c
 
     .line 2
-    :cond_0
-    new-instance v0, Landroid/app/AlertDialog$Builder;
-
-    invoke-direct {v0, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
-
-    const v1, 0x7f10011d
+    # Panggil metode ekstrak BIOS secara langsung
+    invoke-static {p0}, Lcom/test/app/MovableButton;->extractBios(Landroid/content/Context;)V
 
     .line 3
-    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
-
-    move-result-object v0
-
-    const v1, 0x7f10011e
-
-    .line 4
-    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
-
-    move-result-object v0
-
-    const v1, 0x7f10009e
-
-    new-instance v2, Ll6/i3;
-
-    const/4 v3, 0x2
-
-    invoke-direct {v2, p0, v3}, Ll6/i3;-><init>(Ljava/lang/Object;I)V
-
-    .line 5
-    invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
-
-    move-result-object v0
-
-    const v1, 0x7f10009a
-
-    sget-object v2, Ll6/r4;->k:Ll6/r4;
-
-    .line 6
-    invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
-
-    move-result-object v0
-
-    .line 7
-    invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
-
-    move-result-object v0
-
-    .line 8
-    invoke-virtual {v0}, Landroid/app/Dialog;->show()V
-
-    const/4 v0, 0x0
-
-    :goto_0
-    if-nez v0, :cond_1
-
-    return-void
-
-    .line 9
-    :cond_1
+    :cond_3c
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lxyz/aethersx2/android/EmulationActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    if-eqz p1, :cond_2
+    if-eqz p1, :cond_4a
 
     const-string v1, "bootPath"
 
-    .line 10
+    .line 4
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    :cond_2
-    if-eqz p2, :cond_3
+    :cond_4a
+    if-eqz p2, :cond_51
 
     const-string p1, "saveStatePath"
 
-    .line 11
+    .line 5
     invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 12
-    :cond_3
+    .line 6
+    :cond_51
     invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     return-void
