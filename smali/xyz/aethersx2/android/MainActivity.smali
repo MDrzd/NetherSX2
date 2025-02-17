@@ -219,6 +219,11 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 25
+    const-string v0, "\n\nDevice Info:\n"
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 26
     const-string v0, "Model: "
 
@@ -238,6 +243,33 @@
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 28
+    const-string v0, "\nManufacturer: "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v0, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 29
+    const-string v0, "\nDevice: "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v0, Landroid/os/Build;->DEVICE:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 30
+    const-string v0, "\nProduct: "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v0, Landroid/os/Build;->PRODUCT:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 32
     const-string v0, "\nCPU: "
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -245,6 +277,37 @@
     sget-object v0, Landroid/os/Build;->HARDWARE:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 33
+    const-string v0, "\nCPU Arch: "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v0, Landroid/os/Build;->SUPPORTED_ABIS:[Ljava/lang/String;
+
+    const/4 v1, 0x0
+
+    aget-object v0, v0, v1
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 34
+    const-string v0, "\nAndroid Version: "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 35
+    const-string v0, "\nSDK Level: "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 29
     new-instance v0, Landroid/app/AlertDialog$Builder;
